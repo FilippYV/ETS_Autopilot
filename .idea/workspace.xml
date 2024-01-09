@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ETS_Autopilot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/logger/joystick.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/logger/logger_joystick.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/logger/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="Начало работы&#10;Записать обучающих данных">
+      <change afterPath="$PROJECT_DIR$/app/static/raw_data/Test_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -155,12 +147,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704799618883</updated>
-      <workItem from="1704799625981" duration="9516000" />
+      <workItem from="1704799625981" duration="10813000" />
     </task>
+    <task id="LOCAL-00001" summary="Начало работы&#10;Записать обучающих данных">
+      <option name="closed" value="true" />
+      <created>1704810573763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704810573763</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Начало работы&#10;Записать обучающих данных" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начало работы&#10;Записать обучающих данных" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
