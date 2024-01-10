@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="Начало работы&#10;Записать обучающих данных">
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/Test_file" afterDir="false" />
+    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="тестовый файл">
+      <change afterPath="$PROJECT_DIR$/app/static/settings_cache/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/lane_recognition/lane_resnet.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/lane_recognition/lane_resnet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/logger_joystick.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/logger_joystick.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,41 +19,49 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2aiRsKBphHtbvW8ClqI1HgqS3BZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.logger_joystick.executor": "Run",
-    "Python.path.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.logger_joystick.executor&quot;: &quot;Run&quot;,
+    &quot;Python.path.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Filipp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\lane_recognition" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\static" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app" />
     </key>
@@ -147,7 +158,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704799618883</updated>
-      <workItem from="1704799625981" duration="10813000" />
+      <workItem from="1704799625981" duration="12843000" />
+      <workItem from="1704815969852" duration="7926000" />
+      <workItem from="1704848215104" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;Записать обучающих данных">
       <option name="closed" value="true" />
@@ -157,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704810573763</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="тестовый файл">
+      <option name="closed" value="true" />
+      <created>1704813173688</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704813173688</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +186,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Начало работы&#10;Записать обучающих данных" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начало работы&#10;Записать обучающих данных" />
+    <MESSAGE value="тестовый файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="тестовый файл" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -180,6 +202,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ETS_Autopilot$path.coverage" NAME="path Coverage Results" MODIFIED="1704807653473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm" />
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_joystick.coverage" NAME="logger_joystick Coverage Results" MODIFIED="1704810383166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_joystick.coverage" NAME="logger_joystick Coverage Results" MODIFIED="1704831284155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
   </component>
 </project>

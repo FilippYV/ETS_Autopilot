@@ -41,7 +41,8 @@ while True:
                         opened = False
                         file.close()
                         print('second')
-                        time.sleep(0.2)
+                        name_screens = 0
+                        time.sleep(1)
 
         if keyboard.is_pressed('right alt'):
             recording = True
@@ -50,7 +51,7 @@ while True:
             path, name_path = get_path_name()
             filename = get_path_save_csv(path)
             print('fist')
-            time.sleep(0.2)
+            time.sleep(1)
 
 
     except KeyboardInterrupt:
