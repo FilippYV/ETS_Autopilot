@@ -17,9 +17,19 @@ if joystick_count > 0:
         pygame.quit()
         quit()
 
+# Для скриншота по области
+left = 710
+top = 230
+width = 512
+height = 512
+counter = 0
+
+first_key = '/'
+second_key = '.'
+
 num_axes = joystick.get_numaxes()
 
-name_screens = 0
+
 
 recording = False
 opened = False
@@ -30,13 +40,16 @@ while True:
                 while opened:
                     if recording:
                         pygame.event.pump()
+                        name_screens = time.time()
                         file.write(f'{name_screens},{joystick.get_axis(0)}\n')
-                        screenshot = pyautogui.screenshot()
+                        screenshot = pyautogui.screenshot(region=(left, top, width, height))
+                        # screenshot = pyautogui.screenshot()
                         screenshot.save(get_path_save_screens(f'{name_path}', f'{name_screens}.png'))
-                        name_screens += 1
-                        time.sleep(1 / 15)
+                        print(f'{counter}')
+                        counter += 1
+                        time.sleep(3)
 
-                    if keyboard.is_pressed('right alt'):
+                    if keyboard.is_pressed('/'):
                         recording = False
                         opened = False
                         file.close()
@@ -44,7 +57,7 @@ while True:
                         name_screens = 0
                         time.sleep(1)
 
-        if keyboard.is_pressed('right alt'):
+        if keyboard.is_pressed(f'{first_key}'):
             recording = True
             opened = True
 
@@ -53,6 +66,12 @@ while True:
             print('fist')
             time.sleep(1)
 
+        if keyboard.is_pressed(f'{second_key}'):
+            recording = False
+            opened = False
+            file.close()
+            print('three')
+            break
 
     except KeyboardInterrupt:
         pygame.quit()
