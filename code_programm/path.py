@@ -8,19 +8,11 @@ def get_project_root():
 
 
 def get_path_save_screens(name_path, name_screen):
-    return os.path.join(get_project_root(), f'app\\static\\raw_data\\{name_path}\\{name_screen}')
+    return os.path.join(get_project_root(), f'D:\\Dataset_for_autopilot\\{name_path}\\{name_screen}')
 
 
 def get_path_save_csv(path_name):
     return os.path.join(path_name, f'log.csv')
-
-
-def get_path_to_dataset_for_yolo_train():
-    return os.path.join('E:\\Dataset_for_Autopilot\\Version_0\\Marked', f'train')
-
-
-def get_path_to_dataset_for_yolo_valid():
-    return os.path.join('E:\\Dataset_for_Autopilot\\Version_0\\Marked', f'valid')
 
 
 def get_path_to_dataset_for_yolo():
@@ -28,7 +20,7 @@ def get_path_to_dataset_for_yolo():
 
 
 def get_path_name():
-    folder = os.path.join(get_project_root(), f'app\\static\\raw_data')
+    folder = os.path.join(get_project_root(), f'D:\\Dataset_for_autopilot')
     name_new_folder = (f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}').replace(':', "-")
     name_new_path = os.path.join(folder, name_new_folder)
     if not os.path.exists(name_new_path):
@@ -37,7 +29,7 @@ def get_path_name():
 
 
 def get_path_model(model_name):
-    return os.path.join(get_project_root(), f'app\\model\\{model_name}')
+    return os.path.join(get_project_root(), f'app\\models_yolo\\{model_name}')
 
 
 def get_path_weight_model(weight_model_name):

@@ -4,288 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="изменен логгер (работает только через альтаб в окне)&#10;тестовые фото для обучения нейросети на распознавание разметки">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/yolov8n-seg.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/yolov8n.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/yolov8s-seg.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/data.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818071.4759727.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818074.5979009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818077.7107596.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818080.8336363.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818083.960026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818087.0895329.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818090.2066705.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818093.3326433.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818099.5630622.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818102.6874938.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818105.8081956.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818108.920327.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818112.041754.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818115.163694.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818118.2876854.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818121.4044125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818124.5254393.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818127.6340272.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818130.733451.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818136.9708903.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818140.088998.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818143.2105682.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818146.3310258.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818149.4490197.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818152.5741765.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818155.696672.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818161.8993216.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818165.0047874.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818168.109419.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818171.2086627.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818174.3145368.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818177.4175844.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818180.5212448.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818183.6251838.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818186.7264879.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818189.827591.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818192.9292192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818196.0321481.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818199.1349492.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818202.239181.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818205.3444362.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818208.4482608.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818211.5489478.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818214.6663017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818217.768938.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818227.0795686.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818230.1843772.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818233.2877421.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818239.4903095.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818245.7111504.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818248.8263218.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818251.9316115.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818255.0340989.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818261.2365277.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818264.320239.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818273.6154268.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818276.7185836.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/images/1708818279.8189156.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818071.4759727.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818074.5979009.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818077.7107596.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818080.8336363.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818083.960026.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818087.0895329.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818090.2066705.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818093.3326433.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818099.5630622.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818102.6874938.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818105.8081956.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818108.920327.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818112.041754.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818115.163694.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818118.2876854.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818121.4044125.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818124.5254393.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818127.6340272.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818130.733451.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818136.9708903.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818140.088998.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818143.2105682.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818146.3310258.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818149.4490197.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818152.5741765.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818155.696672.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818161.8993216.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818165.0047874.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818168.109419.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818171.2086627.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818174.3145368.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818177.4175844.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818180.5212448.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818183.6251838.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818186.7264879.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818189.827591.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818192.9292192.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818196.0321481.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818199.1349492.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818202.239181.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818205.3444362.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818208.4482608.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818211.5489478.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818214.6663017.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818217.768938.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818227.0795686.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818230.1843772.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818233.2877421.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818239.4903095.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818245.7111504.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818248.8263218.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818251.9316115.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818255.0340989.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818261.2365277.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818264.320239.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818273.6154268.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818276.7185836.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/train/labels/1708818279.8189156.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818096.445041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818133.8516226.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818158.7974334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818220.8720758.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818223.979316.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818236.3868074.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818242.5961444.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818258.1408849.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818267.4061956.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/images/1708818270.5089765.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818096.445041.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818133.8516226.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818158.7974334.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818220.8720758.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818223.979316.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818236.3868074.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818242.5961444.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818258.1408849.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818267.4061956.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_1/validation/labels/1708818270.5089765.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/data.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818071.4759727.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818074.5979009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818077.7107596.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818080.8336363.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818083.960026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818087.0895329.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818090.2066705.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818093.3326433.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818096.445041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818099.5630622.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818102.6874938.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818105.8081956.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818108.920327.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818112.041754.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818115.163694.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818118.2876854.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818124.5254393.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818130.733451.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818133.8516226.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818136.9708903.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818140.088998.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818143.2105682.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818146.3310258.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818149.4490197.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818152.5741765.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818158.7974334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818165.0047874.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818168.109419.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818171.2086627.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818174.3145368.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818177.4175844.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818180.5212448.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818183.6251838.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818186.7264879.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818189.827591.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818192.9292192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818196.0321481.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818199.1349492.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818202.239181.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818208.4482608.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818211.5489478.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818214.6663017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818217.768938.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818220.8720758.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818223.979316.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818227.0795686.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818230.1843772.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818233.2877421.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818236.3868074.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818239.4903095.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818242.5961444.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818245.7111504.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818248.8263218.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818251.9316115.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818255.0340989.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818264.320239.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818267.4061956.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818270.5089765.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818273.6154268.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818276.7185836.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/images/1708818279.8189156.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818071.4759727.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818074.5979009.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818077.7107596.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818080.8336363.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818083.960026.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818087.0895329.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818090.2066705.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818093.3326433.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818096.445041.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818099.5630622.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818102.6874938.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818105.8081956.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818108.920327.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818112.041754.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818115.163694.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818118.2876854.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818124.5254393.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818130.733451.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818133.8516226.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818136.9708903.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818140.088998.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818143.2105682.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818146.3310258.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818149.4490197.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818152.5741765.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818158.7974334.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818165.0047874.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818168.109419.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818171.2086627.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818174.3145368.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818177.4175844.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818180.5212448.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818183.6251838.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818186.7264879.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818189.827591.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818192.9292192.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818196.0321481.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818199.1349492.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818202.239181.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818208.4482608.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818211.5489478.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818214.6663017.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818217.768938.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818220.8720758.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818223.979316.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818227.0795686.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818230.1843772.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818233.2877421.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818236.3868074.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818239.4903095.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818242.5961444.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818245.7111504.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818248.8263218.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818251.9316115.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818255.0340989.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818264.320239.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818267.4061956.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818270.5089765.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818273.6154268.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818276.7185836.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/train/labels/1708818279.8189156.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/images/1708818121.4044125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/images/1708818127.6340272.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/images/1708818155.696672.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/images/1708818161.8993216.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/images/1708818205.3444362.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/images/1708818258.1408849.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/images/1708818261.2365277.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/labels/1708818121.4044125.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/labels/1708818127.6340272.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/labels/1708818155.696672.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/labels/1708818161.8993216.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/labels/1708818205.3444362.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/labels/1708818258.1408849.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/cache/train_2/validation/labels/1708818261.2365277.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/data.yaml" afterDir="false" />
+    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="Изменение логгера (разрешение теперь 512 на 512). Датасет из 98 обученный на модели yolov8s. Восстановлена логика хранения файлов">
       <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818071.4759727.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818077.7107596.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818083.960026.png" afterDir="false" />
@@ -484,333 +203,32 @@
       <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963338.8056793.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963345.0125782.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963348.1125436.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830048.3736777.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830051.800939.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830054.9024408.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830058.0131629.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830061.1219075.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830064.231367.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830067.3421426.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830070.4557335.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832836.4172473.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832839.5550115.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832842.6813753.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832845.8284388.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832848.9527886.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832852.075826.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832855.211105.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832858.3542378.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832861.4879446.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832864.6289864.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/stages_of_development/ver_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/stages_of_development/ver_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/stages_of_development/ver_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/weight_model/yolov8n-seg_v1.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/weight_model/yolov8s-seg_v1.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/weight_model/yolov8s-seg_v2.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/lane_recognition/yolo8_seg_medel.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/lane_recognition/yolov8_model.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/logger/logger_image_for_train_nn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ETS_Autopilot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ETS_Autopilot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-12-29/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-13-45/log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/log.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-15-12/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-16-30/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-01-09 23-18-11/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/Test_file" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/lane_recognition/lane_opencv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/settings_cache/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/lane_recognition/lane_resnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/logger/joystick.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/joystick.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/yolov8n-seg.pt" beforeDir="false" afterPath="$PROJECT_DIR$/app/models_yolo/yolov8n-seg.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/yolov8n.pt" beforeDir="false" afterPath="$PROJECT_DIR$/app/models_yolo/yolov8n.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/yolov8s-seg.pt" beforeDir="false" afterPath="$PROJECT_DIR$/app/models_yolo/yolov8s-seg.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830048.3736777.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830051.800939.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830054.9024408.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830058.0131629.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830061.1219075.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830064.231367.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830067.3421426.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830070.4557335.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832836.4172473.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832839.5550115.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832842.6813753.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832845.8284388.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832848.9527886.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832852.075826.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832855.211105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832858.3542378.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832861.4879446.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832864.6289864.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/log.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code_programm/logger/logger_joystick.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/logger_joystick.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/logger/screenshot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code_programm/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -845,27 +263,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.asincio_logger_image.executor": "Run",
-    "Python.lane_opencv.executor": "Run",
-    "Python.logger_image_for_train_nn.executor": "Run",
-    "Python.logger_joystick.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.path.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Filipp",
-    "last_opened_file_path": "C:/PycharmProjects/ETS_Autopilot/app/static/stages_of_development",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.asincio_logger_image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lane_opencv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logger_image_for_train_nn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logger_joystick.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.path.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Filipp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PycharmProjects/ETS_Autopilot/app/static/stages_of_development&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\stages_of_development" />
@@ -1072,7 +490,8 @@
       <workItem from="1708962717963" duration="1665000" />
       <workItem from="1708969240104" duration="10000" />
       <workItem from="1708969501890" duration="5540000" />
-      <workItem from="1708975283195" duration="1542000" />
+      <workItem from="1708975283195" duration="1787000" />
+      <workItem from="1708977292623" duration="1716000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;Записать обучающих данных">
       <option name="closed" value="true" />
@@ -1098,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704852827832</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Изменение логгера (разрешение теперь 512 на 512). Датасет из 98 обученный на модели yolov8s. Восстановлена логика хранения файлов">
+      <option name="closed" value="true" />
+      <created>1708976855162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708976855162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1108,7 +535,8 @@
     <MESSAGE value="Начало работы&#10;Записать обучающих данных" />
     <MESSAGE value="тестовый файл" />
     <MESSAGE value="изменен логгер (работает только через альтаб в окне)&#10;тестовые фото для обучения нейросети на распознавание разметки" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменен логгер (работает только через альтаб в окне)&#10;тестовые фото для обучения нейросети на распознавание разметки" />
+    <MESSAGE value="Изменение логгера (разрешение теперь 512 на 512). Датасет из 98 обученный на модели yolov8s. Восстановлена логика хранения файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменение логгера (разрешение теперь 512 на 512). Датасет из 98 обученный на модели yolov8s. Восстановлена логика хранения файлов" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_image_for_train_nn.coverage" NAME="logger_image_for_train_nn Coverage Results" MODIFIED="1708834402170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
