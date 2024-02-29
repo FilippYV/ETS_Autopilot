@@ -5,8 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="Изменение путей, пренос папки static, файл с зависимостями">
+      <change afterPath="$PROJECT_DIR$/code_programm/auxiliary_squeaks/test_for_input_to_new_nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/weight_model/best_v2_n.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/weight_model/yolov8n-seg_v2.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/lane_recognition/split_video.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/lane_recognition/split_video.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/lane_recognition/split_video.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/auxiliary_squeaks/split_video.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/lane_recognition/yolo8_seg_medel_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/lane_recognition/yolo8_seg_medel_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/lane_recognition/yolo8_seg_medel_train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/lane_recognition/yolo8_seg_medel_train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/logger_image_for_train_nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/logger_image_for_train_nn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818093.3326433.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818121.4044125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818130.733451.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818177.4175844.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818211.5489478.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818230.1843772.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818233.2877421.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818248.8263218.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818267.4061956.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963276.7408998.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963279.8424678.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963295.3636622.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963304.666707.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963310.8749056.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels.cache" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets/train/labels.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818093.3326433.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818121.4044125.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818130.733451.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818177.4175844.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818211.5489478.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818230.1843772.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818233.2877421.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818248.8263218.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818267.4061956.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963276.7408998.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963279.8424678.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963295.3636622.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963304.666707.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963310.8749056.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/validation/images/1708963313.9761984.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/validation/labels.cache" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets/validation/labels.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/validation/labels/1708963313.9761984.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,44 +92,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.asincio_logger_image.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lane_opencv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.logger_image_for_train_nn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.logger_joystick.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.path.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Filipp&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/PycharmProjects/hackathon-perm&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.asincio_logger_image.executor": "Run",
+    "Python.lane_opencv.executor": "Run",
+    "Python.logger_image_for_train_nn.executor": "Run",
+    "Python.logger_joystick.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.path.executor": "Run",
+    "Python.test_for_input_to_new_nn (1).executor": "Run",
+    "Python.test_for_input_to_new_nn.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Filipp",
+    "last_opened_file_path": "C:/PycharmProjects/ETS_Autopilot/static/settings_cache",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\ETS_Autopilot\static\settings_cache" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\static\weight_model" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\weight_model" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\settings_cache" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\lane_recognition" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\stages_of_development" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\auxiliary_squeaks" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\static\settings_cache" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\static" />
       <recent name="C:\PycharmProjects\ETS_Autopilot" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\datasets" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\datasets\cache" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.logger_image_for_train_nn">
+  <component name="RunManager" selected="Python.test_for_input_to_new_nn (1)">
     <configuration name="asincio_logger_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETS_Autopilot" />
       <option name="ENV_FILES" value="" />
@@ -107,29 +147,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/asincio_logger_image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lane_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ETS_Autopilot" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/lane_recognition" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/lane_recognition/lane_opencv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_for_input_to_new_nn (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETS_Autopilot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,12 +233,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/auxiliary_squeaks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/path.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/auxiliary_squeaks/test_for_input_to_new_nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_for_input_to_new_nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ETS_Autopilot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/lane_recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\PycharmProjects\ETS_Autopilot\code_programm\auxiliary_squeaks\test_for_input_to_new_nn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_for_input_to_new_nn (1)" />
+        <item itemvalue="Python.test_for_input_to_new_nn" />
         <item itemvalue="Python.logger_image_for_train_nn" />
         <item itemvalue="Python.logger_joystick" />
         <item itemvalue="Python.asincio_logger_image" />
-        <item itemvalue="Python.path" />
-        <item itemvalue="Python.lane_opencv" />
       </list>
     </recent_temporary>
   </component>
@@ -290,6 +330,8 @@
       <workItem from="1709208068970" duration="1527000" />
       <workItem from="1709209618921" duration="612000" />
       <workItem from="1709210281246" duration="931000" />
+      <workItem from="1709225818353" duration="5014000" />
+      <workItem from="1709241416164" duration="5445000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;Записать обучающих данных">
       <option name="closed" value="true" />
@@ -390,10 +432,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="Изменение путей, пренос папки static, файл с зависимостями" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_image_for_train_nn.coverage" NAME="logger_image_for_train_nn Coverage Results" MODIFIED="1709210769681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_image_for_train_nn.coverage" NAME="logger_image_for_train_nn Coverage Results" MODIFIED="1709224777062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$main.coverage" NAME="main Coverage Results" MODIFIED="1708539505078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$path.coverage" NAME="path Coverage Results" MODIFIED="1708540434955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$test_for_input_to_new_nn.coverage" NAME="test_for_input_to_new_nn Coverage Results" MODIFIED="1709245174815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/lane_recognition" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$asincio_logger_image.coverage" NAME="asincio_logger_image Coverage Results" MODIFIED="1708834025211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$test_for_input_to_new_nn__1_.coverage" NAME="test_for_input_to_new_nn (1) Coverage Results" MODIFIED="1709246098593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/auxiliary_squeaks" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$lane_opencv.coverage" NAME="lane_opencv Coverage Results" MODIFIED="1706456305983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/lane_recognition" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_joystick.coverage" NAME="logger_joystick Coverage Results" MODIFIED="1709210753441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
   </component>

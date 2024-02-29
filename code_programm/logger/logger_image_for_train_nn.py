@@ -30,7 +30,7 @@ second_key = '\\'
 
 num_axes = joystick.get_numaxes()
 
-step = 0.2
+step = 3
 stop_time = 0
 
 S = False
@@ -64,6 +64,7 @@ while True:
                         file.close()
                         print('second')
                         name_screens = 0
+                        counter = 0
                         time.sleep(1)
 
         if keyboard.is_pressed(f'{first_key}'):
@@ -73,6 +74,7 @@ while True:
             path, name_path = get_path_name()
             filename = get_path_save_csv(path)
             print('fist')
+            print('filename')
             time.sleep(1)
 
         if keyboard.is_pressed(f'{second_key}'):
