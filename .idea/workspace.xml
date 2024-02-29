@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="Изменение путей, пренос папки static, файл с зависимостями">
-      <change afterPath="$PROJECT_DIR$/static/settings_cache/cropped_video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/settings_cache/cropped_video_2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/lane_recognition/yolov8_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/lane_recognition/split_video.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/settings_cache/1708818279.8189156.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,16 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Изменение путей, пренос папки static, файл с зависимостями" />
+        <option name="rewordedMessage" value="Изменение путей, пренос папки static, файл с зависимостями" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="7f2dfd4a95b77f2539a687fbd5ec94893b5f0e81" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -278,7 +289,9 @@
       <workItem from="1709000661840" duration="9395000" />
       <workItem from="1709161326157" duration="2117000" />
       <workItem from="1709170193624" duration="2446000" />
-      <workItem from="1709208068970" duration="857000" />
+      <workItem from="1709208068970" duration="1527000" />
+      <workItem from="1709209618921" duration="612000" />
+      <workItem from="1709210281246" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;Записать обучающих данных">
       <option name="closed" value="true" />
@@ -336,11 +349,30 @@
       <option name="project" value="LOCAL" />
       <updated>1709208699684</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Изменение путей, пренос папки static, файл с зависимостями">
+      <option name="closed" value="true" />
+      <created>1709209233280</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709209233280</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Начало работы&#10;Записать обучающих данных" />
