@@ -16,7 +16,7 @@ def get_path_save_csv(path_name):
 
 
 def get_path_to_dataset_for_yolo():
-    return os.path.join(get_project_root(), f'app\\static\\datasets\\data.yaml')
+    return os.path.join(get_project_root(), f'static\\datasets\\data.yaml')
 
 
 def get_path_name():
@@ -29,8 +29,8 @@ def get_path_name():
 
 
 def get_path_model(model_name):
-    return os.path.join(get_project_root(), f'app\\models_yolo\\{model_name}')
+    return os.path.join(get_project_root(), f'static\\models_yolo\\{model_name}')
 
 
 def get_path_weight_model(weight_model_name):
-    return os.path.join(get_project_root(), f'app\\weight_model\\{weight_model_name}')
+    return os.path.join(get_project_root(), f'static\\weight_model\\{weight_model_name}')

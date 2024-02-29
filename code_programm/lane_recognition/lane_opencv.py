@@ -11,7 +11,7 @@ def canny(img):
 
 if __name__ == '__main__':
     start_time = time.time()
-    img = cv2.imread('../../app/static/settings_cache/17.png')
+    img = cv2.imread('../../static/settings_cache/17.png')
     img_copy = img.copy()
     img = canny(img)
     print('stop_time:', time.time()-start_time)

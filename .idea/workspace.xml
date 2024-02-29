@@ -4,231 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="Изменение логгера (разрешение теперь 512 на 512). Датасет из 98 обученный на модели yolov8s. Восстановлена логика хранения файлов">
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818071.4759727.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818077.7107596.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818083.960026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818087.0895329.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818090.2066705.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818093.3326433.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818099.5630622.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818102.6874938.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818105.8081956.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818108.920327.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818112.041754.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818115.163694.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818118.2876854.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818121.4044125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818124.5254393.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818127.6340272.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818130.733451.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818133.8516226.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818136.9708903.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818140.088998.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818143.2105682.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818149.4490197.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818152.5741765.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818155.696672.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818161.8993216.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818165.0047874.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818168.109419.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818171.2086627.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818177.4175844.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818180.5212448.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818183.6251838.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818186.7264879.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818189.827591.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818196.0321481.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818199.1349492.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818202.239181.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818205.3444362.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818208.4482608.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818211.5489478.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818214.6663017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818217.768938.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818220.8720758.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818223.979316.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818227.0795686.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818230.1843772.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818233.2877421.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818239.4903095.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818242.5961444.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818245.7111504.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818248.8263218.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818251.9316115.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818255.0340989.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818258.1408849.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818264.320239.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818267.4061956.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818270.5089765.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818273.6154268.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818276.7185836.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708818279.8189156.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963270.5126195.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963273.631349.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963276.7408998.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963279.8424678.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963286.0540211.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963289.153601.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963292.2550716.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963295.3636622.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963298.462975.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963301.5604434.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963304.666707.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963307.770019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963310.8749056.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963320.1862674.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963326.3936234.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963329.4993048.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963332.6022515.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963335.703162.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963341.9102817.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963351.2270095.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963354.3806758.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963357.4813735.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/images/1708963360.5844736.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818071.4759727.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818077.7107596.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818083.960026.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818087.0895329.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818090.2066705.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818093.3326433.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818099.5630622.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818102.6874938.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818105.8081956.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818108.920327.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818112.041754.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818115.163694.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818118.2876854.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818121.4044125.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818124.5254393.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818127.6340272.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818130.733451.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818133.8516226.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818136.9708903.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818140.088998.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818143.2105682.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818149.4490197.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818152.5741765.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818155.696672.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818161.8993216.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818165.0047874.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818168.109419.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818171.2086627.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818177.4175844.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818180.5212448.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818183.6251838.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818186.7264879.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818189.827591.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818196.0321481.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818199.1349492.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818202.239181.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818205.3444362.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818208.4482608.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818211.5489478.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818214.6663017.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818217.768938.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818220.8720758.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818223.979316.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818227.0795686.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818230.1843772.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818233.2877421.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818239.4903095.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818242.5961444.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818245.7111504.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818248.8263218.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818251.9316115.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818255.0340989.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818258.1408849.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818264.320239.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818267.4061956.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818270.5089765.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818273.6154268.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818276.7185836.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708818279.8189156.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963270.5126195.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963273.631349.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963276.7408998.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963279.8424678.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963286.0540211.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963289.153601.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963292.2550716.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963295.3636622.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963298.462975.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963301.5604434.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963304.666707.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963307.770019.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963310.8749056.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963320.1862674.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963326.3936234.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963329.4993048.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963332.6022515.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963335.703162.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963341.9102817.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963351.2270095.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963354.3806758.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963357.4813735.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/train/labels/1708963360.5844736.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708818074.5979009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708818080.8336363.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708818096.445041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708818146.3310258.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708818158.7974334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708818174.3145368.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708818192.9292192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708818236.3868074.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708818261.2365277.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708963282.9476237.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708963313.9761984.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708963317.0797694.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708963323.289429.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708963338.8056793.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708963345.0125782.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/images/1708963348.1125436.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708818074.5979009.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708818080.8336363.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708818096.445041.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708818146.3310258.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708818158.7974334.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708818174.3145368.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708818192.9292192.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708818236.3868074.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708818261.2365277.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963282.9476237.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963313.9761984.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963317.0797694.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963323.289429.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963338.8056793.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963345.0125782.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/datasets/validation/labels/1708963348.1125436.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="Изменение путей, пренос папки static, файл с зависимостями">
+      <change afterPath="$PROJECT_DIR$/static/settings_cache/cropped_video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/settings_cache/cropped_video_2.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/yolov8n-seg.pt" beforeDir="false" afterPath="$PROJECT_DIR$/app/models_yolo/yolov8n-seg.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/yolov8n.pt" beforeDir="false" afterPath="$PROJECT_DIR$/app/models_yolo/yolov8n.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/yolov8s-seg.pt" beforeDir="false" afterPath="$PROJECT_DIR$/app/models_yolo/yolov8s-seg.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830048.3736777.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830051.800939.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830054.9024408.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830058.0131629.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830061.1219075.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830064.231367.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830067.3421426.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-00-47/1708830070.4557335.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832836.4172473.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832839.5550115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832842.6813753.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832845.8284388.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832848.9527886.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832852.075826.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832855.211105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832858.3542378.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832861.4879446.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/1708832864.6289864.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/raw_data/2024-02-25 06-47-15/log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/logger/logger_joystick.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/logger_joystick.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/path.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,6 +31,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -274,32 +56,33 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Filipp&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/PycharmProjects/ETS_Autopilot/app/static/stages_of_development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PycharmProjects/hackathon-perm&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\stages_of_development" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\app\weight_model" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\settings_cache" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\lane_recognition" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\stages_of_development" />
       <recent name="C:\PycharmProjects\ETS_Autopilot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\ETS_Autopilot\static" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\datasets" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\datasets\cache" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\model" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\datasets\train_2" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\datasets\train_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.logger_joystick">
+  <component name="RunManager" selected="Python.logger_image_for_train_nn">
     <configuration name="asincio_logger_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETS_Autopilot" />
       <option name="ENV_FILES" value="" />
@@ -440,8 +223,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logger_joystick" />
         <item itemvalue="Python.logger_image_for_train_nn" />
+        <item itemvalue="Python.logger_joystick" />
         <item itemvalue="Python.asincio_logger_image" />
         <item itemvalue="Python.path" />
         <item itemvalue="Python.lane_opencv" />
@@ -491,7 +274,11 @@
       <workItem from="1708969240104" duration="10000" />
       <workItem from="1708969501890" duration="5540000" />
       <workItem from="1708975283195" duration="1787000" />
-      <workItem from="1708977292623" duration="1716000" />
+      <workItem from="1708977292623" duration="5629000" />
+      <workItem from="1709000661840" duration="9395000" />
+      <workItem from="1709161326157" duration="2117000" />
+      <workItem from="1709170193624" duration="2446000" />
+      <workItem from="1709208068970" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;Записать обучающих данных">
       <option name="closed" value="true" />
@@ -525,7 +312,31 @@
       <option name="project" value="LOCAL" />
       <updated>1708976855162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Обновление gitignore и путей до файлов">
+      <option name="closed" value="true" />
+      <created>1708979029799</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708979029799</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Изменение путей, пренос папки static, файл с зависимостями">
+      <option name="closed" value="true" />
+      <created>1709172915219</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709172915219</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Изменение путей, пренос папки static, файл с зависимостями">
+      <option name="closed" value="true" />
+      <created>1709208699684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709208699684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,14 +347,16 @@
     <MESSAGE value="тестовый файл" />
     <MESSAGE value="изменен логгер (работает только через альтаб в окне)&#10;тестовые фото для обучения нейросети на распознавание разметки" />
     <MESSAGE value="Изменение логгера (разрешение теперь 512 на 512). Датасет из 98 обученный на модели yolov8s. Восстановлена логика хранения файлов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменение логгера (разрешение теперь 512 на 512). Датасет из 98 обученный на модели yolov8s. Восстановлена логика хранения файлов" />
+    <MESSAGE value="Обновление gitignore и путей до файлов" />
+    <MESSAGE value="Изменение путей, пренос папки static, файл с зависимостями" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменение путей, пренос папки static, файл с зависимостями" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_image_for_train_nn.coverage" NAME="logger_image_for_train_nn Coverage Results" MODIFIED="1708834402170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_image_for_train_nn.coverage" NAME="logger_image_for_train_nn Coverage Results" MODIFIED="1709004150915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$main.coverage" NAME="main Coverage Results" MODIFIED="1708539505078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$path.coverage" NAME="path Coverage Results" MODIFIED="1708540434955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$asincio_logger_image.coverage" NAME="asincio_logger_image Coverage Results" MODIFIED="1708834025211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$lane_opencv.coverage" NAME="lane_opencv Coverage Results" MODIFIED="1706456305983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/lane_recognition" />
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_joystick.coverage" NAME="logger_joystick Coverage Results" MODIFIED="1708963265457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_joystick.coverage" NAME="logger_joystick Coverage Results" MODIFIED="1708998315768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
   </component>
 </project>

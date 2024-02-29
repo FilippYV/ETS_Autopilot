@@ -1,7 +1,0 @@
-names:
-- markup
-- markup_line
-nc: 2
-test: validation/images
-train: train/images
-val: validation/images

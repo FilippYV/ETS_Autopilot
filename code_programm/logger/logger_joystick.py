@@ -24,12 +24,10 @@ width = 512
 height = 512
 counter = 0
 
-first_key = '/'
-second_key = '.'
+first_key = ']'
+second_key = '\\'
 
 num_axes = joystick.get_numaxes()
-
-
 
 recording = False
 opened = False
@@ -49,7 +47,7 @@ while True:
                         counter += 1
                         time.sleep(3)
 
-                    if keyboard.is_pressed('/'):
+                    if keyboard.is_pressed(f'{first_key}'):
                         recording = False
                         opened = False
                         file.close()
