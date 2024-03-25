@@ -48,11 +48,3 @@ for i in range(num_masks):
     cv2.putText(labeled_image, class_name,
                 (int(mask_contours[0][:, 0, 0].mean()), int(mask_contours[0][:, 0, 1].mean())),
                 cv2.FONT_HERSHEY_SIMPLEX, 1, color, 1)
-
-# Отобразите итоговое изображение с наложенными масками и подписями
-plt.figure(figsize=(8, 8), dpi=150)
-labeled_image = cv2.cvtColor(labeled_image, cv2.COLOR_BGR2RGB)
-plt.imshow(labeled_image)
-plt.axis('off')
-plt.savefig('output.png')
-plt.show()
