@@ -12,7 +12,7 @@ if joystick_count > 0:
     try:
         joystick = pygame.joystick.Joystick(0)
         joystick.init()
-        print(F"Гей\мпад найден: {joystick.get_name()}")
+        print(F"Геймпад найден: {joystick.get_name()}")
     except KeyError:
         print("Геймпад не найден.")
         pygame.quit()
@@ -30,7 +30,7 @@ second_key = '\\'
 
 num_axes = joystick.get_numaxes()
 
-step = 3
+step = 0.1
 stop_time = 0
 
 S = False
