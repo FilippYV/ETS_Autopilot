@@ -34,3 +34,7 @@ def get_path_model(model_name):
 
 def get_path_weight_model(weight_model_name):
     return os.path.join(get_project_root(), f'static\\weight_model\\{weight_model_name}')
+
+
+def get_path_wheel_net_weight():
+    return os.path.join(get_project_root(), f'dataset_for_wheel_nn/weight_32_128.pth')
