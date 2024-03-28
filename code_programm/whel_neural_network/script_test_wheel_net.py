@@ -88,7 +88,7 @@ while True:
                         if results[0].masks is not None:
                             for i in results[0].masks.data:
                                 combined_mask += i.cpu().numpy()
-                        images = cv2.resize(combined_mask.copy(), (32, 128))
+                        images = cv2.resize(combined_mask.copy(), (128, 128))
                         print(len(images), images.size, len(images.flatten()))
                         new_image = torch.tensor(images.flatten(), dtype=torch.float32).cuda()
                         # print(f'new_image, {len(new_image)}')
@@ -103,6 +103,7 @@ while True:
                     else:
                         name_screens = time.time()
 
+
                 if keyboard.is_pressed(f'{first_key}'):
                     recording = False
                     opened = False
@@ -112,6 +113,10 @@ while True:
                     gamepad.left_joystick_float(x_value_float=0.0, y_value_float=0.0)
                     gamepad.update()
                     time.sleep(1)
+
+        pygame.event.pump()
+        gamepad.left_joystick_float(x_value_float=joystick.get_axis(0), y_value_float=0.0)
+        gamepad.update()
         if keyboard.is_pressed(f'{first_key}'):
             recording = True
             opened = True
@@ -130,7 +135,7 @@ while True:
             break
 
         if keyboard.is_pressed(f'['):
-            gamepad.left_joystick_float(x_value_float=0.5, y_value_float=0.0)
+            gamepad.left_joystick_float(x_value_float=0.0, y_value_float=0.0)
             gamepad.update()
 
 
