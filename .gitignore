@@ -1,3 +1,4 @@
-/static/datasets/cache/
+/static/datasets_line/cache/
 /runs/
 /static/settings_cache/
+/dataset_for_wheel_nn/

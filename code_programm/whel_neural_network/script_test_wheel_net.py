@@ -80,9 +80,9 @@ while True:
                         S = True
                     if name_screens - stop_time >= 0:
                         start_time = time.time()
-                        screenshot = pyautogui.screenshot(region=(left, top, width, height))
+                        screenshot = pyautogui.screenshot()
+                        road = pyautogui.screenshot(region=(left, top, width, height))
                         results = model(screenshot, imgsz=512, conf=0.65, show=False, device='cuda')
-
                         combined_mask -= combined_mask * 0.25
 
                         if results[0].masks is not None:

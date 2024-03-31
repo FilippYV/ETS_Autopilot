@@ -4,13 +4,650 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="1 версия, удержания в полосе&#10;(до 20 км/ч работает)">
+    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="редактирование файлов">
+      <change afterPath="$PROJECT_DIR$/code_programm/logger/logger_for_train_wheel_neural_network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/logger/logger_for_train_wheel_nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/speed_recognition/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/speed_recognition/speen_nn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/speed_recognition/test_nn_speed.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/speed_recognition/train_nn_speed.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/config/config_road_area_size.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/config/config_speed_area_size.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/data.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711675815.4451425.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711675830.1778784.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711675956.2440724.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711675968.6941102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711675998.7088823.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676006.8948762.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676021.797097.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676056.8797107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676064.7091193.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676074.0100636.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676088.892203.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676291.1235821.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676300.5055869.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676303.773435.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676305.9719698.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676310.6732779.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676313.8571894.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676317.307043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676321.4387228.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676325.9058797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676330.2069807.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676335.2058601.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676339.6102045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676346.7062259.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676354.572227.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676388.2899609.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676401.976081.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676407.2092361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676416.9556704.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676424.389804.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676436.0385303.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676443.1284006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676446.3399465.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676455.5896394.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676460.705343.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676465.505508.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676472.6061788.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676475.9899395.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676480.6706667.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676484.642984.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676488.4724174.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676490.604824.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676492.721744.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676495.1562462.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676498.2578437.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676508.8063965.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676516.138714.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676524.006825.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676531.6707182.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676536.2719133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676540.0732186.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676544.2242327.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676552.4903455.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676559.3045084.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676587.6552896.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676590.2402873.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676597.1422966.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676615.623148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676628.5753334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676659.6912725.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676669.9781578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676673.6410704.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676683.524715.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676694.2246208.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676702.9050338.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676719.488138.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676722.5908155.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676726.1580782.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676728.9720178.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676733.692735.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676756.4561377.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676758.4740226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676763.0921042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676768.8562531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676771.5273557.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676813.1553829.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676816.9712677.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676819.4293625.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676820.7061691.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676827.4267132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676829.7384548.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676830.4555104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676846.987424.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676849.52218.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676871.2893198.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676871.9725392.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676872.5426085.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676920.2868807.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/images/1711676925.7697234.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711675815.4451425.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711675830.1778784.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711675956.2440724.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711675968.6941102.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711675998.7088823.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676006.8948762.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676021.797097.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676056.8797107.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676064.7091193.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676074.0100636.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676088.892203.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676291.1235821.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676300.5055869.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676303.773435.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676305.9719698.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676310.6732779.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676313.8571894.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676317.307043.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676321.4387228.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676325.9058797.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676330.2069807.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676335.2058601.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676339.6102045.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676346.7062259.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676354.572227.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676388.2899609.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676401.976081.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676407.2092361.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676416.9556704.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676424.389804.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676436.0385303.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676443.1284006.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676446.3399465.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676455.5896394.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676460.705343.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676465.505508.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676472.6061788.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676475.9899395.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676480.6706667.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676484.642984.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676488.4724174.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676490.604824.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676492.721744.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676495.1562462.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676498.2578437.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676508.8063965.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676516.138714.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676524.006825.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676531.6707182.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676536.2719133.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676540.0732186.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676544.2242327.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676552.4903455.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676559.3045084.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676587.6552896.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676590.2402873.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676597.1422966.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676615.623148.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676628.5753334.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676659.6912725.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676669.9781578.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676673.6410704.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676683.524715.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676694.2246208.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676702.9050338.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676719.488138.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676722.5908155.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676726.1580782.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676728.9720178.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676733.692735.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676756.4561377.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676758.4740226.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676763.0921042.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676768.8562531.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676771.5273557.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676813.1553829.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676816.9712677.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676819.4293625.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676820.7061691.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676827.4267132.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676829.7384548.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676830.4555104.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676846.987424.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676849.52218.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676871.2893198.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676871.9725392.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676872.5426085.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676920.2868807.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/train/labels/1711676925.7697234.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711675983.6972969.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676286.1080656.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676295.7240543.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676298.2230065.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676308.107929.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676360.771216.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676382.0729663.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676391.9438725.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676450.5551443.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676548.4390743.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676649.6379678.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676653.9241507.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676662.9371045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676678.738359.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676684.9885356.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676689.8250828.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676731.5887797.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676735.888168.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676752.054051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676770.456079.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676828.7238326.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676909.9031863.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/images/1711676929.3882842.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711675983.6972969.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676286.1080656.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676295.7240543.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676298.2230065.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676308.107929.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676360.771216.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676382.0729663.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676391.9438725.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676450.5551443.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676548.4390743.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676649.6379678.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676653.9241507.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676662.9371045.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676678.738359.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676684.9885356.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676689.8250828.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676731.5887797.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676735.888168.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676752.054051.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676770.456079.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676828.7238326.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676909.9031863.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datasets_numbers/validation/labels/1711676929.3882842.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/weight_model/best.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/auxiliary_squeaks/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/auxiliary_squeaks/test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/auxiliary_squeaks/test_for_input_to_new_nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/auxiliary_squeaks/test_for_input_to_new_nn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/lane_recognition/yolo8_seg_medel_train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/lane_recognition/yolo8_seg_medel_train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/logger_image_for_train_nn.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code_programm/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code_programm/whel_neural_network/dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/whel_neural_network/dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/whel_neural_network/face_wheel.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code_programm/whel_neural_network/script_test_wheel_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/whel_neural_network/script_test_wheel_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/whel_neural_network/wheel_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/whel_neural_network/wheel_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/whel_neural_network/whel_nn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/whel_neural_network/whel_nn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_for_wheel_nn/X_train_32_128.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_for_wheel_nn/weight_32_128.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_for_wheel_nn/y_train_32_128.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818071.4759727.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818071.4759727.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818074.5979009.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818074.5979009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818077.7107596.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818077.7107596.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818080.8336363.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818080.8336363.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818083.960026.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818083.960026.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818087.0895329.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818087.0895329.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818090.2066705.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818090.2066705.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818093.3326433.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818093.3326433.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818099.5630622.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818099.5630622.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818102.6874938.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818102.6874938.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818105.8081956.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818105.8081956.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818108.920327.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818108.920327.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818112.041754.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818112.041754.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818115.163694.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818115.163694.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818118.2876854.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818118.2876854.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818121.4044125.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818121.4044125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818124.5254393.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818124.5254393.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818127.6340272.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818127.6340272.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818130.733451.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818130.733451.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818136.9708903.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818136.9708903.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818140.088998.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818140.088998.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818143.2105682.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818143.2105682.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818146.3310258.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818146.3310258.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818149.4490197.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818149.4490197.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818152.5741765.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818152.5741765.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818155.696672.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818155.696672.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818161.8993216.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818161.8993216.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818165.0047874.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818165.0047874.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818168.109419.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818168.109419.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818171.2086627.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818171.2086627.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818174.3145368.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818174.3145368.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818177.4175844.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818177.4175844.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818180.5212448.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818180.5212448.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818183.6251838.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818183.6251838.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818186.7264879.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818186.7264879.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818189.827591.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818189.827591.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818192.9292192.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818192.9292192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818196.0321481.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818196.0321481.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818199.1349492.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818199.1349492.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818202.239181.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818202.239181.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818205.3444362.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818205.3444362.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818208.4482608.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818208.4482608.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818211.5489478.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818211.5489478.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818214.6663017.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818214.6663017.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818217.768938.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818217.768938.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818227.0795686.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818227.0795686.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818230.1843772.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818230.1843772.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818233.2877421.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818233.2877421.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818239.4903095.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818239.4903095.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818245.7111504.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818245.7111504.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818248.8263218.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818248.8263218.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818251.9316115.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818251.9316115.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818255.0340989.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818255.0340989.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818261.2365277.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818261.2365277.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818264.320239.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818264.320239.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818273.6154268.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818273.6154268.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818276.7185836.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818276.7185836.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/images/1708818279.8189156.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/images/1708818279.8189156.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels.cache" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818071.4759727.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818071.4759727.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818074.5979009.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818074.5979009.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818077.7107596.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818077.7107596.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818080.8336363.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818080.8336363.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818083.960026.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818083.960026.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818087.0895329.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818087.0895329.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818090.2066705.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818090.2066705.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818093.3326433.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818093.3326433.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818099.5630622.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818099.5630622.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818102.6874938.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818102.6874938.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818105.8081956.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818105.8081956.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818108.920327.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818108.920327.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818112.041754.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818112.041754.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818115.163694.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818115.163694.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818118.2876854.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818118.2876854.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818121.4044125.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818121.4044125.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818124.5254393.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818124.5254393.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818127.6340272.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818127.6340272.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818130.733451.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818130.733451.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818136.9708903.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818136.9708903.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818140.088998.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818140.088998.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818143.2105682.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818143.2105682.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818146.3310258.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818146.3310258.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818149.4490197.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818149.4490197.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818152.5741765.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818152.5741765.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818155.696672.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818155.696672.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818161.8993216.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818161.8993216.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818165.0047874.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818165.0047874.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818168.109419.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818168.109419.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818171.2086627.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818171.2086627.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818174.3145368.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818174.3145368.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818177.4175844.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818177.4175844.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818180.5212448.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818180.5212448.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818183.6251838.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818183.6251838.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818186.7264879.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818186.7264879.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818189.827591.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818189.827591.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818192.9292192.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818192.9292192.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818196.0321481.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818196.0321481.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818199.1349492.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818199.1349492.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818202.239181.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818202.239181.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818205.3444362.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818205.3444362.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818208.4482608.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818208.4482608.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818211.5489478.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818211.5489478.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818214.6663017.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818214.6663017.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818217.768938.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818217.768938.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818227.0795686.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818227.0795686.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818230.1843772.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818230.1843772.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818233.2877421.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818233.2877421.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818239.4903095.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818239.4903095.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818245.7111504.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818245.7111504.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818248.8263218.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818248.8263218.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818251.9316115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818251.9316115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818255.0340989.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818255.0340989.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818261.2365277.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818261.2365277.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818264.320239.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818264.320239.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818273.6154268.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818273.6154268.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818276.7185836.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818276.7185836.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/train/labels/1708818279.8189156.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/train/labels/1708818279.8189156.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818096.445041.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818096.445041.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818133.8516226.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818133.8516226.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818158.7974334.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818158.7974334.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818220.8720758.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818220.8720758.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818223.979316.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818223.979316.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818236.3868074.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818236.3868074.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818242.5961444.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818242.5961444.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818258.1408849.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818258.1408849.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818267.4061956.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818267.4061956.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/images/1708818270.5089765.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/images/1708818270.5089765.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels.cache" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818096.445041.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818096.445041.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818133.8516226.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818133.8516226.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818158.7974334.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818158.7974334.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818220.8720758.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818220.8720758.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818223.979316.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818223.979316.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818236.3868074.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818236.3868074.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818242.5961444.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818242.5961444.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818258.1408849.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818258.1408849.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818267.4061956.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818267.4061956.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_1/validation/labels/1708818270.5089765.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_1/validation/labels/1708818270.5089765.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818071.4759727.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818071.4759727.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818074.5979009.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818074.5979009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818077.7107596.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818077.7107596.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818080.8336363.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818080.8336363.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818083.960026.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818083.960026.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818087.0895329.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818087.0895329.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818090.2066705.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818090.2066705.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818093.3326433.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818093.3326433.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818096.445041.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818096.445041.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818099.5630622.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818099.5630622.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818102.6874938.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818102.6874938.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818105.8081956.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818105.8081956.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818108.920327.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818108.920327.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818112.041754.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818112.041754.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818115.163694.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818115.163694.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818118.2876854.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818118.2876854.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818124.5254393.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818124.5254393.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818130.733451.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818130.733451.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818133.8516226.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818133.8516226.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818136.9708903.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818136.9708903.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818140.088998.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818140.088998.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818143.2105682.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818143.2105682.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818146.3310258.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818146.3310258.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818149.4490197.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818149.4490197.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818152.5741765.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818152.5741765.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818158.7974334.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818158.7974334.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818165.0047874.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818165.0047874.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818168.109419.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818168.109419.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818171.2086627.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818171.2086627.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818174.3145368.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818174.3145368.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818177.4175844.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818177.4175844.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818180.5212448.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818180.5212448.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818183.6251838.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818183.6251838.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818186.7264879.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818186.7264879.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818189.827591.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818189.827591.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818192.9292192.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818192.9292192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818196.0321481.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818196.0321481.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818199.1349492.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818199.1349492.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818202.239181.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818202.239181.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818208.4482608.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818208.4482608.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818211.5489478.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818211.5489478.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818214.6663017.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818214.6663017.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818217.768938.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818217.768938.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818220.8720758.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818220.8720758.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818223.979316.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818223.979316.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818227.0795686.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818227.0795686.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818230.1843772.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818230.1843772.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818233.2877421.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818233.2877421.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818236.3868074.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818236.3868074.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818239.4903095.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818239.4903095.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818242.5961444.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818242.5961444.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818245.7111504.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818245.7111504.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818248.8263218.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818248.8263218.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818251.9316115.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818251.9316115.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818255.0340989.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818255.0340989.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818264.320239.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818264.320239.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818267.4061956.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818267.4061956.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818270.5089765.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818270.5089765.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818273.6154268.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818273.6154268.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818276.7185836.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818276.7185836.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/images/1708818279.8189156.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/images/1708818279.8189156.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818071.4759727.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818071.4759727.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818074.5979009.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818074.5979009.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818077.7107596.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818077.7107596.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818080.8336363.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818080.8336363.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818083.960026.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818083.960026.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818087.0895329.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818087.0895329.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818090.2066705.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818090.2066705.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818093.3326433.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818093.3326433.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818096.445041.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818096.445041.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818099.5630622.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818099.5630622.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818102.6874938.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818102.6874938.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818105.8081956.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818105.8081956.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818108.920327.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818108.920327.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818112.041754.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818112.041754.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818115.163694.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818115.163694.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818118.2876854.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818118.2876854.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818124.5254393.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818124.5254393.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818130.733451.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818130.733451.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818133.8516226.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818133.8516226.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818136.9708903.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818136.9708903.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818140.088998.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818140.088998.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818143.2105682.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818143.2105682.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818146.3310258.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818146.3310258.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818149.4490197.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818149.4490197.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818152.5741765.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818152.5741765.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818158.7974334.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818158.7974334.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818165.0047874.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818165.0047874.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818168.109419.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818168.109419.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818171.2086627.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818171.2086627.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818174.3145368.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818174.3145368.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818177.4175844.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818177.4175844.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818180.5212448.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818180.5212448.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818183.6251838.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818183.6251838.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818186.7264879.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818186.7264879.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818189.827591.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818189.827591.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818192.9292192.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818192.9292192.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818196.0321481.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818196.0321481.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818199.1349492.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818199.1349492.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818202.239181.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818202.239181.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818208.4482608.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818208.4482608.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818211.5489478.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818211.5489478.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818214.6663017.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818214.6663017.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818217.768938.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818217.768938.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818220.8720758.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818220.8720758.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818223.979316.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818223.979316.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818227.0795686.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818227.0795686.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818230.1843772.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818230.1843772.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818233.2877421.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818233.2877421.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818236.3868074.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818236.3868074.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818239.4903095.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818239.4903095.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818242.5961444.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818242.5961444.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818245.7111504.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818245.7111504.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818248.8263218.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818248.8263218.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818251.9316115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818251.9316115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818255.0340989.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818255.0340989.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818264.320239.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818264.320239.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818267.4061956.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818267.4061956.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818270.5089765.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818270.5089765.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818273.6154268.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818273.6154268.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818276.7185836.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818276.7185836.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/train/labels/1708818279.8189156.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/train/labels/1708818279.8189156.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/images/1708818121.4044125.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/images/1708818121.4044125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/images/1708818127.6340272.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/images/1708818127.6340272.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/images/1708818155.696672.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/images/1708818155.696672.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/images/1708818161.8993216.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/images/1708818161.8993216.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/images/1708818205.3444362.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/images/1708818205.3444362.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/images/1708818258.1408849.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/images/1708818258.1408849.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/images/1708818261.2365277.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/images/1708818261.2365277.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/labels/1708818121.4044125.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/labels/1708818121.4044125.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/labels/1708818127.6340272.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/labels/1708818127.6340272.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/labels/1708818155.696672.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/labels/1708818155.696672.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/labels/1708818161.8993216.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/labels/1708818161.8993216.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/labels/1708818205.3444362.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/labels/1708818205.3444362.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/labels/1708818258.1408849.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/labels/1708818258.1408849.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/cache/train_2/validation/labels/1708818261.2365277.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/cache/train_2/validation/labels/1708818261.2365277.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818071.4759727.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818071.4759727.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818077.7107596.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818077.7107596.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818083.960026.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818083.960026.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818087.0895329.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818087.0895329.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818090.2066705.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818090.2066705.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818099.5630622.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818099.5630622.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818102.6874938.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818102.6874938.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818105.8081956.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818105.8081956.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818108.920327.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818108.920327.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818124.5254393.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818124.5254393.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818127.6340272.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818127.6340272.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818133.8516226.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818133.8516226.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818136.9708903.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818136.9708903.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818140.088998.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818140.088998.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818143.2105682.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818143.2105682.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818149.4490197.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818149.4490197.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818155.696672.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818155.696672.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818165.0047874.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818165.0047874.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818168.109419.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818168.109419.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818171.2086627.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818171.2086627.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818180.5212448.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818180.5212448.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818183.6251838.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818183.6251838.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818186.7264879.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818186.7264879.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818189.827591.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818189.827591.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818199.1349492.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818199.1349492.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818202.239181.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818202.239181.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818205.3444362.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818205.3444362.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818208.4482608.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818208.4482608.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818220.8720758.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818220.8720758.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818223.979316.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818223.979316.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818227.0795686.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818227.0795686.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818239.4903095.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818239.4903095.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818242.5961444.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818242.5961444.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818251.9316115.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818251.9316115.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818255.0340989.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818255.0340989.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818258.1408849.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818258.1408849.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818264.320239.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818264.320239.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818270.5089765.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818270.5089765.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708818273.6154268.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708818273.6154268.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963270.5126195.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963270.5126195.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963286.0540211.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963286.0540211.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963289.153601.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963289.153601.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963292.2550716.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963292.2550716.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963298.462975.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963298.462975.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963301.5604434.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963301.5604434.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963307.770019.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963307.770019.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963320.1862674.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963320.1862674.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963326.3936234.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963326.3936234.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963329.4993048.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963329.4993048.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963332.6022515.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963332.6022515.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963335.703162.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963335.703162.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963341.9102817.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963341.9102817.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963351.2270095.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963351.2270095.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963357.4813735.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963357.4813735.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/images/1708963360.5844736.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/images/1708963360.5844736.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels.cache" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818071.4759727.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818071.4759727.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818077.7107596.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818077.7107596.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818083.960026.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818083.960026.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818087.0895329.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818087.0895329.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818090.2066705.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818090.2066705.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818099.5630622.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818099.5630622.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818102.6874938.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818102.6874938.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818105.8081956.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818105.8081956.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818108.920327.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818108.920327.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818124.5254393.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818124.5254393.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818127.6340272.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818127.6340272.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818133.8516226.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818133.8516226.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818136.9708903.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818136.9708903.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818140.088998.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818140.088998.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818143.2105682.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818143.2105682.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818149.4490197.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818149.4490197.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818155.696672.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818155.696672.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818165.0047874.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818165.0047874.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818168.109419.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818168.109419.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818171.2086627.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818171.2086627.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818180.5212448.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818180.5212448.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818183.6251838.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818183.6251838.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818186.7264879.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818186.7264879.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818189.827591.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818189.827591.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818199.1349492.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818199.1349492.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818202.239181.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818202.239181.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818205.3444362.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818205.3444362.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818208.4482608.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818208.4482608.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818220.8720758.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818220.8720758.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818223.979316.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818223.979316.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818227.0795686.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818227.0795686.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818239.4903095.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818239.4903095.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818242.5961444.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818242.5961444.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818251.9316115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818251.9316115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818255.0340989.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818255.0340989.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818258.1408849.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818258.1408849.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818264.320239.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818264.320239.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818270.5089765.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818270.5089765.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708818273.6154268.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708818273.6154268.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963270.5126195.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963270.5126195.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963286.0540211.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963286.0540211.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963289.153601.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963289.153601.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963292.2550716.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963292.2550716.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963298.462975.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963298.462975.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963301.5604434.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963301.5604434.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963307.770019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963307.770019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963320.1862674.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963320.1862674.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963326.3936234.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963326.3936234.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963329.4993048.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963329.4993048.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963332.6022515.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963332.6022515.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963335.703162.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963335.703162.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963341.9102817.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963341.9102817.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963351.2270095.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963351.2270095.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963357.4813735.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963357.4813735.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/train/labels/1708963360.5844736.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/train/labels/1708963360.5844736.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/datasets/validation/labels.cache" beforeDir="false" afterPath="$PROJECT_DIR$/static/datasets_line/validation/labels.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/weight_model/best_v1.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/weight_model/best_v1_n.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/weight_model/yolov8n-seg_v1.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/weight_model/yolov8n-seg_v2.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/weight_model/yolov8s-seg_v1.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/weight_model/yolov8s-seg_v2.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/weight_model/yolov8s-seg_v3.pt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +657,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -37,12 +674,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="Изменение путей, пренос папки static, файл с зависимостями" />
-        <option name="rewordedMessage" value="Изменение путей, пренос папки static, файл с зависимостями" />
+        <option name="originalMessage" value="редактирование файлов" />
+        <option name="rewordedMessage" value="редактирование файлов&#10;&#10;&#10;редактирование файлов" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="7f2dfd4a95b77f2539a687fbd5ec94893b5f0e81" />
+    <option name="onto" value="920539ac945856d1e4573c12a54dabb1aa73c816" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,50 +695,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.asincio_logger_image.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lane_opencv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.logger_image_for_train_nn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.logger_joystick.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.path.executor&quot;: &quot;Run&quot;,
-    &quot;Python.script_test_wheel_net.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_for_input_to_new_nn (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_for_input_to_new_nn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wheel_net.executor&quot;: &quot;Run&quot;,
-    &quot;Python.window.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Filipp&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/PycharmProjects/ETS_Autopilot/static/settings_cache&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.asincio_logger_image.executor": "Run",
+    "Python.lane_opencv.executor": "Run",
+    "Python.logger_for_train_wheel_neural_network.executor": "Run",
+    "Python.logger_for_train_wheel_nn (1).executor": "Run",
+    "Python.logger_image_for_train_nn.executor": "Run",
+    "Python.logger_joystick.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.path.executor": "Run",
+    "Python.script_test_wheel_net.executor": "Run",
+    "Python.test_for_input_to_new_nn (1).executor": "Run",
+    "Python.test_for_input_to_new_nn.executor": "Run",
+    "Python.wheel_net.executor": "Run",
+    "Python.window.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Filipp",
+    "last_opened_file_path": "C:/PycharmProjects/ETS_Autopilot/static/weight_model",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PycharmProjects\ETS_Autopilot\static\settings_cache" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\static\weight_model" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\static\datasets_numbers" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\static\models_yolo" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\static\settings_cache" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\app\weight_model" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\settings_cache" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\lane_recognition" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\auxiliary_squeaks" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\static\settings_cache" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\static\weight_model" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\dataset_for_wheel_nn" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\auxiliary_squeaks" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\static" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\app\static\datasets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.script_test_wheel_net">
-    <configuration name="logger_image_for_train_nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.logger_for_train_wheel_neural_network">
+    <configuration name="logger_for_train_wheel_neural_network" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETS_Autopilot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,7 +754,53 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/logger_image_for_train_nn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/logger_for_train_wheel_neural_network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logger_for_train_wheel_nn (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ETS_Autopilot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/logger" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/logger_for_train_wheel_nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logger_for_train_wheel_nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ETS_Autopilot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/logger" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\PycharmProjects\ETS_Autopilot\code_programm\logger\logger_for_train_wheel_nn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,29 +855,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_for_input_to_new_nn (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ETS_Autopilot" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/auxiliary_squeaks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/auxiliary_squeaks/test_for_input_to_new_nn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="wheel_net" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETS_Autopilot" />
       <option name="ENV_FILES" value="" />
@@ -216,36 +878,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ETS_Autopilot" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/interface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/interface/window.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logger_for_train_wheel_neural_network" />
+        <item itemvalue="Python.logger_for_train_wheel_nn (1)" />
+        <item itemvalue="Python.logger_for_train_wheel_nn" />
         <item itemvalue="Python.script_test_wheel_net" />
         <item itemvalue="Python.wheel_net" />
-        <item itemvalue="Python.logger_image_for_train_nn" />
-        <item itemvalue="Python.window" />
-        <item itemvalue="Python.test_for_input_to_new_nn (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +951,16 @@
       <workItem from="1711560085001" duration="9475000" />
       <workItem from="1711574344240" duration="36000" />
       <workItem from="1711574568786" duration="16362000" />
-      <workItem from="1711593661798" duration="314000" />
+      <workItem from="1711593661798" duration="577000" />
+      <workItem from="1711626239930" duration="11573000" />
+      <workItem from="1711669799981" duration="7746000" />
+      <workItem from="1711678415814" duration="7059000" />
+      <workItem from="1711686867329" duration="19420000" />
+      <workItem from="1711737278061" duration="2172000" />
+      <workItem from="1711755713423" duration="4555000" />
+      <workItem from="1711800964698" duration="2079000" />
+      <workItem from="1711823539003" duration="9585000" />
+      <workItem from="1711834182535" duration="10237000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;Записать обучающих данных">
       <option name="closed" value="true" />
@@ -426,7 +1074,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711591846547</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="редактирование файлов">
+      <option name="closed" value="true" />
+      <created>1711594028341</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711594028341</updated>
+    </task>
+    <task id="LOCAL-00016" summary="редактирование файлов">
+      <option name="closed" value="true" />
+      <created>1711594124106</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711594124106</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,19 +1119,22 @@
     <MESSAGE value="Получение маски для объектов" />
     <MESSAGE value="Заготовка для тренеровки нейросети wheel" />
     <MESSAGE value="1 версия, удержания в полосе&#10;(до 20 км/ч работает)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 версия, удержания в полосе&#10;(до 20 км/ч работает)" />
+    <MESSAGE value="редактирование файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="редактирование файлов" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_image_for_train_nn.coverage" NAME="logger_image_for_train_nn Coverage Results" MODIFIED="1711579121194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$main.coverage" NAME="main Coverage Results" MODIFIED="1708539505078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$path.coverage" NAME="path Coverage Results" MODIFIED="1708540434955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$test_for_input_to_new_nn.coverage" NAME="test_for_input_to_new_nn Coverage Results" MODIFIED="1709245174815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/lane_recognition" />
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$asincio_logger_image.coverage" NAME="asincio_logger_image Coverage Results" MODIFIED="1708834025211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$path.coverage" NAME="path Coverage Results" MODIFIED="1708540434955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$test_for_input_to_new_nn__1_.coverage" NAME="test_for_input_to_new_nn (1) Coverage Results" MODIFIED="1709250410257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/auxiliary_squeaks" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$window.coverage" NAME="window Coverage Results" MODIFIED="1711577451256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/interface" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$lane_opencv.coverage" NAME="lane_opencv Coverage Results" MODIFIED="1706456305983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/lane_recognition" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_train_wheel_nn__1_.coverage" NAME="logger_for_train_wheel_nn (1) Coverage Results" MODIFIED="1711842182451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_joystick.coverage" NAME="logger_joystick Coverage Results" MODIFIED="1709210753441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_train_wheel_neural_network.coverage" NAME="logger_for_train_wheel_neural_network Coverage Results" MODIFIED="1711844762097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_image_for_train_nn.coverage" NAME="logger_image_for_train_nn Coverage Results" MODIFIED="1711684659434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$main.coverage" NAME="main Coverage Results" MODIFIED="1708539505078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$asincio_logger_image.coverage" NAME="asincio_logger_image Coverage Results" MODIFIED="1708834025211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$script_test_wheel_net.coverage" NAME="script_test_wheel_net Coverage Results" MODIFIED="1711593137420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/whel_neural_network" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$wheel_net.coverage" NAME="wheel_net Coverage Results" MODIFIED="1711592272449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/whel_neural_network" />
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_joystick.coverage" NAME="logger_joystick Coverage Results" MODIFIED="1709210753441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
   </component>
 </project>
