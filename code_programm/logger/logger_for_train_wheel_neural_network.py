@@ -2,6 +2,8 @@ import time
 
 import keyboard
 import pygame
+import cv2
+import numpy as np
 from PIL import ImageGrab
 
 from code_programm.path import (get_path_config_road_area_size, get_path_config_speed_area_size,
@@ -52,6 +54,7 @@ def save_photo(road_area, speed_area):
                              speed_area[1],
                              speed_area[0] + speed_area[2],
                              speed_area[1] + speed_area[3]))
+
     return road, speed
 
 
@@ -66,7 +69,10 @@ def main():
 
     opened = False
     recording = False
-    step = 0.1
+    step = 0.07
+
+    log_file_path = ''
+    name_path = ''
 
     while True:
         try:
@@ -81,7 +87,7 @@ def main():
                             road, speed = save_photo(road_area, speed_area)
 
                             pygame.event.pump()
-                            wheel_position = round(joystick.get_axis(0), 3)
+                            wheel_position = joystick.get_axis(0)
 
                             file.write(f'{name_path}_{counter},{wheel_position}\n')
 
@@ -93,7 +99,6 @@ def main():
                             )
 
                             counter += 1
-                            times = True
 
                         time_program = step - (time.time() - start_time)
                         if time_program > 0:

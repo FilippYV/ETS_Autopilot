@@ -2,3 +2,4 @@
 /runs/
 /static/settings_cache/
 /dataset_for_wheel_nn/
+/static/weight_model
