@@ -10,14 +10,14 @@ from ultralytics import YOLO
 
 from code_programm.path import (get_path_config_road_area_size, get_path_config_speed_area_size,
                                 get_path_weight_model)
-from code_programm.wheel_neural_network.forward.wheel_neural_network_forward import FeedforwardNet
+from code_programm.wheel_neural_network.lstm.wheel_neural_network_lstm import LSTMNet
 
 
 def get_weight_model():
     model_road = YOLO(get_path_weight_model('best.pt')).cuda()
     model_speed = YOLO(get_path_weight_model('speed_recognition.pt')).cuda()
-    wheel_net = FeedforwardNet().cuda()
-    wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn.pth')))
+    wheel_net = LSTMNet().cuda()
+    wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn_lstm.pth')))
     return model_road, model_speed, wheel_net
 
 
@@ -59,8 +59,8 @@ def model_road_predict(model_road, road_img, combined_mask_old, combined_mask_ne
                                          )
 
     if prediction_road[0].masks is not None:
-        combined_mask_old = combined_mask_new
-        combined_mask_new.zero_()  # Reset the combined mask
+        combined_mask_old = combined_mask_old * 0.4 + combined_mask_new * 0.6
+        combined_mask_new.zero_()
         for i in prediction_road[0].masks.data:
             resized_mask = F.interpolate(i.unsqueeze(0).unsqueeze(0), size=(96, 128), mode='bilinear',
                                          align_corners=False)
@@ -68,7 +68,7 @@ def model_road_predict(model_road, road_img, combined_mask_old, combined_mask_ne
 
     combined_tensor = combined_mask_old + combined_mask_new
 
-    return combined_tensor.flatten().detach(), combined_mask_old, combined_mask_new
+    return combined_tensor[0][0].flatten().detach(), combined_mask_old, combined_mask_new
 
 
 def model_speed_predict(model_speed, speed_img):
@@ -82,9 +82,9 @@ def model_speed_predict(model_speed, speed_img):
     )
     if sorted_objects:
         speed = ''.join(str(obj['class']) for obj in sorted_objects)
-        speed = torch.tensor([int(speed)], device='cuda')
+        speed = torch.tensor(int(speed), device='cuda').unsqueeze(0)
     else:
-        speed = torch.tensor([int(30)], device='cuda')
+        speed = torch.tensor(int(30), device='cuda').unsqueeze(0)
     return speed
 
 
@@ -142,10 +142,11 @@ def main():
         while True:
             if recording:
                 # counter = 0
+
                 combined_mask_old = torch.zeros((1, 1, 96, 128), device='cuda')
                 combined_mask_new = torch.zeros((1, 1, 96, 128), device='cuda')
                 while opened:
-                    # start_time = time.time()
+                    start_time = time.time()
 
                     road_img, speed_img = save_photo(camera, road_area, speed_area)
 
@@ -155,6 +156,10 @@ def main():
                     speed = model_speed_predict(model_speed, speed_img)
 
                     wheel_position = model_wheel.forward(combined_tensor, speed)
+
+                    x = time.time() - start_time
+                    if x < 0.046:
+                        time.sleep(0.046 - x)
 
                     new_position_gamepad(gamepad, wheel_position)
 
@@ -168,9 +173,9 @@ def main():
 
                         time.sleep(0.1)
 
-                        # print(sum(mass_all) / len(mass_all))
+                        print(sum(mass_all) / len(mass_all))
 
-                    # mass_all.append(time.time() - start_time)
+                    mass_all.append(time.time() - start_time)
 
             pygame.event.pump()
             gamepad.left_joystick_float(x_value_float=joystick.get_axis(0), y_value_float=0.0)
@@ -199,8 +204,7 @@ def main():
     except KeyboardInterrupt:
         pygame.quit()
 
-
-pygame.quit()
+    pygame.quit()
 
 if __name__ == '__main__':
     main()
