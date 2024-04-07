@@ -10,14 +10,14 @@ from ultralytics import YOLO
 
 from code_programm.path import (get_path_config_road_area_size, get_path_config_speed_area_size,
                                 get_path_weight_model)
-from code_programm.wheel_neural_network.lstm.wheel_neural_network_lstm import LSTMNet
+from code_programm.wheel_neural_network.rnn.wheel_neural_network_forward import DeepRNNNet
 
 
 def get_weight_model():
     model_road = YOLO(get_path_weight_model('best.pt')).cuda()
     model_speed = YOLO(get_path_weight_model('speed_recognition.pt')).cuda()
-    wheel_net = LSTMNet().cuda()
-    wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn_lstm.pth')))
+    wheel_net = DeepRNNNet().cuda()
+    wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn_rnn_version_1.pth')))
     return model_road, model_speed, wheel_net
 
 
@@ -50,25 +50,24 @@ def save_photo(camera, road_area, speed_area):
     return road, speed
 
 
-def model_road_predict(model_road, road_img, combined_mask_old, combined_mask_new):
+def model_road_predict(model_road, road_img, combined_mask_new):
     prediction_road = model_road.predict(road_img,
-                                         conf=0.6,
+                                         conf=0.3,
                                          verbose=False,
                                          device='cuda',
                                          show=False
                                          )
 
     if prediction_road[0].masks is not None:
-        combined_mask_old = combined_mask_old * 0.4 + combined_mask_new * 0.6
-        combined_mask_new.zero_()
+        combined_mask_new.zero_()  # Reset the combined mask
         for i in prediction_road[0].masks.data:
             resized_mask = F.interpolate(i.unsqueeze(0).unsqueeze(0), size=(96, 128), mode='bilinear',
                                          align_corners=False)
             combined_mask_new += resized_mask.squeeze(0).unsqueeze(0)
 
-    combined_tensor = combined_mask_old + combined_mask_new
+    combined_tensor = combined_mask_new
 
-    return combined_tensor[0][0].flatten().detach(), combined_mask_old, combined_mask_new
+    return combined_tensor.flatten().detach(), combined_mask_new
 
 
 def model_speed_predict(model_speed, speed_img):
@@ -82,15 +81,28 @@ def model_speed_predict(model_speed, speed_img):
     )
     if sorted_objects:
         speed = ''.join(str(obj['class']) for obj in sorted_objects)
-        speed = torch.tensor(int(speed), device='cuda').unsqueeze(0)
+        speed = torch.tensor([int(speed)], device='cuda')
     else:
-        speed = torch.tensor(int(30), device='cuda').unsqueeze(0)
+        speed = torch.tensor([int(30)], device='cuda')
     return speed
 
 
-def new_position_gamepad(gamepad, wheel_position):
-    gamepad.left_joystick_float(x_value_float=wheel_position.item(), y_value_float=0.0)
+def update_position_gamepad(gamepad, new_wheel_position):
+    gamepad.left_joystick_float(x_value_float=new_wheel_position, y_value_float=0.0)
     gamepad.update()
+
+
+def linear_interpolation(v0, v1, t):
+    return v0 + (v1 - v0) * t
+
+
+def interpolation_wheel_position(position_gamepad_value):
+    array_wheel_position = []
+    for t in [0, 0.15, 0.3, 0.45, 0.6]:
+        interpolated_value = linear_interpolation(position_gamepad_value[0].detach().item(), position_gamepad_value[1].detach().item(), t)
+        array_wheel_position.append(interpolated_value)
+
+    return array_wheel_position
 
 
 def start_work_pygame():
@@ -141,39 +153,52 @@ def main():
     try:
         while True:
             if recording:
-                # counter = 0
+                array_wheel_position = [joystick.get_axis(0)] * 5
 
-                combined_mask_old = torch.zeros((1, 1, 96, 128), device='cuda')
+                # counter = 0
                 combined_mask_new = torch.zeros((1, 1, 96, 128), device='cuda')
+
                 while opened:
+
                     start_time = time.time()
+
+                    update_position_gamepad(gamepad, array_wheel_position[0])
 
                     road_img, speed_img = save_photo(camera, road_area, speed_area)
 
-                    combined_tensor, combined_mask_old, combined_mask_new = model_road_predict(
-                        model_road, road_img, combined_mask_old, combined_mask_new)
+                    update_position_gamepad(gamepad, array_wheel_position[1])
+
+                    combined_tensor, combined_mask_new = model_road_predict(
+                        model_road, road_img, combined_mask_new)
+
+                    update_position_gamepad(gamepad, array_wheel_position[2])
 
                     speed = model_speed_predict(model_speed, speed_img)
 
-                    wheel_position = model_wheel.forward(combined_tensor, speed)
+                    update_position_gamepad(gamepad, array_wheel_position[3])
 
-                    x = time.time() - start_time
-                    if x < 0.046:
-                        time.sleep(0.046 - x)
+                    combined_tensor = torch.cat((combined_tensor, speed), dim=0)
 
-                    new_position_gamepad(gamepad, wheel_position)
+                    combined_tensor = combined_tensor.unsqueeze(0).unsqueeze(0)
 
+                    update_position_gamepad(gamepad, array_wheel_position[4])
+
+                    tensor_wheel_position = model_wheel.forward(combined_tensor)
+
+                    array_wheel_position = interpolation_wheel_position(tensor_wheel_position[0])
+
+                    update_position_gamepad(gamepad, array_wheel_position[0])
                     # counter += 1
 
                     if keyboard.is_pressed(f'{first_key}'):
                         recording = False
                         opened = False
 
-                        print('\nStop')
+                        print(sum(mass_all) / len(mass_all))
 
                         time.sleep(0.1)
 
-                        print(sum(mass_all) / len(mass_all))
+                        print('Stop')
 
                     mass_all.append(time.time() - start_time)
 
@@ -187,7 +212,8 @@ def main():
 
                 print('\nStart')
 
-                time.sleep(1)
+                time.sleep(0.5)
+
             if keyboard.is_pressed(f'{third_key}'):
                 print('\nCalibration')
 
@@ -204,7 +230,8 @@ def main():
     except KeyboardInterrupt:
         pygame.quit()
 
-    pygame.quit()
+
+pygame.quit()
 
 if __name__ == '__main__':
     main()
