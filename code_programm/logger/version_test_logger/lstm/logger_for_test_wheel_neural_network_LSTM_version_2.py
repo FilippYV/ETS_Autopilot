@@ -122,7 +122,7 @@ def update_wheel_position_from_queue(virtual_wheel, queue_speed_pos):
         for position in positions:
             virtual_wheel.left_joystick_float(x_value_float=position, y_value_float=0.0)
             virtual_wheel.update()
-            time.sleep(0.001)
+            time.sleep(0.00001)
 
 
 def linear_interpolation(v0, v1, t):
@@ -135,6 +135,8 @@ def interpolation_wheel_position(new_array_wheel_position, position_gamepad_valu
     delta_values = np.abs(new_value - old_value)
     if delta_values > 0.1:
         delta = 1.2
+    elif delta_values > 0.05:
+        delta = 1.4
     else:
         delta = 1.7
 

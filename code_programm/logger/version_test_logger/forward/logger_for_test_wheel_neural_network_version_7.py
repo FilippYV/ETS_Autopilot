@@ -110,9 +110,9 @@ def model_speed_processing(model_speed, speed_image):
     )
     if sorted_objects:
         speed = int(''.join(str(obj['class']) for obj in sorted_objects))
-        speed = torch.tensor([speed/170], device='cuda')
+        speed = torch.tensor([speed / 170], device='cuda')
     else:
-        speed = torch.tensor([30/170], device='cuda')
+        speed = torch.tensor([30 / 170], device='cuda')
     return speed
 
 
@@ -122,21 +122,23 @@ def update_wheel_position_from_queue(virtual_wheel, queue_speed_pos):
         for position in positions:
             virtual_wheel.left_joystick_float(x_value_float=position, y_value_float=0.0)
             virtual_wheel.update()
-            time.sleep(0.0001)
 
 
 def interpolation_wheel_position(new_array_wheel_position, position_gamepad_value, array_wheel_pos):
-    new_value = position_gamepad_value[1].item()
     old_value = new_array_wheel_position[-1]
+    new_value = position_gamepad_value[1].item()
     delta_values = np.abs(new_value - old_value)
     if delta_values > 0.1:
+        delta = 1
+    elif delta_values > 0.1:
         delta = 1.2
+    elif delta_values > 0.05:
+        delta = 1.5
     else:
-        delta = 1.7
+        delta = 2
     t_values = np.array(array_wheel_pos) / delta
     interpolated_values = old_value + (new_value - old_value) * t_values
     return interpolated_values.tolist()
-
 
 
 def clear_queue(q):
@@ -176,7 +178,7 @@ def main_code():
     combined_mask_old = torch.zeros((1, 1, 96, 128), device='cuda')
     combined_mask_new = torch.zeros((1, 1, 96, 128), device='cuda')
 
-    array_wheel_pos = np.array([i / 10 for i in range(1, 11, 1)])
+    array_wheel_pos = np.array([i / 4 for i in range(1, 5, 1)])
 
     opened = False
     recording = False
@@ -254,7 +256,7 @@ def main_code():
                 stop_event.set()  # Устанавливаем флаг, сигнализирующий о необходимости остановки потока
                 print('\nStart')
                 time.sleep(0.5)
-                print('\nGO')
+                print('GO')
 
             if keyboard.is_pressed(f'{third_key}'):
                 print('\nCalibration')
