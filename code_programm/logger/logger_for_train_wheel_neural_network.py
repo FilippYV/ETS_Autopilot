@@ -82,7 +82,7 @@ def main():
 
     opened = False
     recording = False
-    step = 0.05
+    step = 0.033
 
     log_file_path = ''
     name_path = ''

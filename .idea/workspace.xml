@@ -4,46 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="Версия 3&#10;Рабочая&#10;25 к/c&#10;wheel_nn lstm lstm 256">
-      <change afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_rnn_version_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_3_whis_asinco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_3_whis_paralel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_2/train_wheel_neural_network.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_2/wheel_neural_network_forward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_3/train_wheel_neural_network.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_3/wheel_neural_network_forward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/dataset_joy_for_lstm.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/dataset_road_for_lstm.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/dataset_speed_for_lstm.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/test_screan.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/test_view.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 2/train_wheel_neural_network_lstm_2.py.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 2/wheel_neural_network_lstm_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 3/train_wheel_neural_network_lstm_3.py.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 3/wheel_neural_network_lstm_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 4/train_wheel_neural_network_lstm_4.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 4/wheel_neural_network_lstm_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/dataset_joy.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/dataset_joy_for_rnn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/dataset_road.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/dataset_road_for_rnn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/dataset_speed.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/dataset_speed_for_rnn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/test_screan.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/test_view.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/train_wheel_neural_network.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/wheel_neural_network_forward.py" afterDir="false" />
+    <list default="true" id="b3635aaf-5f49-4b7b-a8ba-5e536cdcba2e" name="Changes" comment="куча версий">
+      <change afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward/logger_for_test_wheel_neural_network_version_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward/logger_for_test_wheel_neural_network_version_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward/logger_for_test_wheel_neural_network_version_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/lstm/logger_for_test_wheel_neural_network_LSTM_version_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_2/dataset_joy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_2/dataset_road.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_2/dataset_speed.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_2/test_screan.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_2/test_view.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_4/train_wheel_neural_network_forward_4.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_4/wheel_neural_network_forward_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_5/train_wheel_neural_network_forward_5.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_5/wheel_neural_network_forward_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_6/train_wheel_neural_network_forward_6.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_6/wheel_neural_network_forward_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_5/train_wheel_neural_network_lstm_5.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_5/wheel_neural_network_lstm_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/auxiliary_squeaks/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/auxiliary_squeaks/test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/logger/logger_for_test_wheel_neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/logger/logger_for_test_wheel_neural_network_LSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_LSTM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/train_wheel_neural_network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_1/train_wheel_neural_network.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/wheel_neural_network_forward.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_1/wheel_neural_network_forward.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/train_wheel_neural_network_lstm.py.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 1/train_wheel_neural_network_lstm.py.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/wheel_neural_network_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 1/wheel_neural_network_lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/logger_for_train_wheel_neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/logger_for_train_wheel_neural_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward/logger_for_test_wheel_neural_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_LSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/lstm/logger_for_test_wheel_neural_network_LSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_rnn_version_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/rnn/logger_for_test_wheel_neural_network_rnn_version_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward/logger_for_test_wheel_neural_network_version_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward/logger_for_test_wheel_neural_network_version_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_3_whis_asinco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_3_whis_paralel.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward/logger_for_test_wheel_neural_network_version_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/dataset_joy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_1/dataset_joy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/dataset_road.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_1/dataset_road.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/dataset_speed.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_1/dataset_speed.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 1/train_wheel_neural_network_lstm.py.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_1/train_wheel_neural_network_lstm.py.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 1/wheel_neural_network_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_1/wheel_neural_network_lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 2/train_wheel_neural_network_lstm_2.py.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_2/train_wheel_neural_network_lstm_2.py.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 2/wheel_neural_network_lstm_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_2/wheel_neural_network_lstm_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 3/train_wheel_neural_network_lstm_3.py.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_3/train_wheel_neural_network_lstm_3.py.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 3/wheel_neural_network_lstm_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_3/wheel_neural_network_lstm_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 4/train_wheel_neural_network_lstm_4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_4/train_wheel_neural_network_lstm_4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver 4/wheel_neural_network_lstm_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_4/wheel_neural_network_lstm_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/test_screan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_1/test_screan.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_programm/wheel_neural_network/test_view.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code_programm/wheel_neural_network/datasets_version/version_1/test_view.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +97,18 @@
     "Python.lane_opencv.executor": "Run",
     "Python.logger_for_test_wheel_neural_network (1).executor": "Run",
     "Python.logger_for_test_wheel_neural_network_LSTM.executor": "Run",
+    "Python.logger_for_test_wheel_neural_network_LSTM_version_2.executor": "Run",
+    "Python.logger_for_test_wheel_neural_network_forward_5.executor": "Run",
     "Python.logger_for_test_wheel_neural_network_rnn_version_1.executor": "Run",
     "Python.logger_for_test_wheel_neural_network_version_2.executor": "Run",
     "Python.logger_for_test_wheel_neural_network_version_3.executor": "Run",
+    "Python.logger_for_test_wheel_neural_network_version_3_miltipot.executor": "Run",
+    "Python.logger_for_test_wheel_neural_network_version_3_miltiprocessing.executor": "Run",
     "Python.logger_for_test_wheel_neural_network_version_3_whis_asinco.executor": "Run",
     "Python.logger_for_test_wheel_neural_network_version_3_whis_paralel.executor": "Run",
+    "Python.logger_for_test_wheel_neural_network_version_4.executor": "Run",
+    "Python.logger_for_test_wheel_neural_network_version_6.executor": "Run",
+    "Python.logger_for_test_wheel_neural_network_version_7.executor": "Run",
     "Python.logger_for_test_wheel_nn (1).executor": "Run",
     "Python.logger_for_train_wheel_neural_network.executor": "Run",
     "Python.logger_for_train_wheel_nn (1).executor": "Run",
@@ -116,12 +123,15 @@
     "Python.wheel_neural_network.executor": "Run",
     "Python.wheel_neural_network_forward (1).executor": "Run",
     "Python.wheel_neural_network_forward.executor": "Run",
+    "Python.wheel_neural_network_forward_4.executor": "Run",
+    "Python.wheel_neural_network_forward_5.executor": "Run",
     "Python.wheel_neural_network_lstm.executor": "Run",
+    "Python.wheel_neural_network_lstm_5.executor": "Run",
     "Python.window.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Filipp",
-    "last_opened_file_path": "C:/PycharmProjects/ETS_Autopilot/code_programm/logger/version_test_logger",
+    "last_opened_file_path": "C:/PycharmProjects/ETS_Autopilot/code_programm/logger/version_test_logger/forward",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,22 +143,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\logger\version_test_logger" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\rnn" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\forward\ver_3" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\forward\ver_1" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\lstm\ver 4" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\logger\version_test_logger\forward" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\forward\ver_6" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\forward" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\forward\ver_4" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\logger\version_test_logger\lstm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\datasets_version\version_1" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\logger\version_test_logger\rnn" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\logger\version_test_logger\forward" />
+      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\logger\version_test_logger\lstm" />
       <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\logger\version_test_logger" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\forward\ver 2" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\lstm\ver 3" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\lstm\ver 2" />
-      <recent name="C:\PycharmProjects\ETS_Autopilot\code_programm\wheel_neural_network\lstm\ver 1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.logger_for_test_wheel_neural_network_version_3_whis_paralel">
-    <configuration name="logger_for_test_wheel_neural_network_rnn_version_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.logger_for_test_wheel_neural_network_LSTM_version_2">
+    <configuration name="logger_for_test_wheel_neural_network_LSTM_version_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETS_Autopilot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,12 +167,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/lstm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_rnn_version_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/lstm/logger_for_test_wheel_neural_network_LSTM_version_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logger_for_test_wheel_neural_network_version_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="logger_for_test_wheel_neural_network_version_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETS_Autopilot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,12 +190,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward/logger_for_test_wheel_neural_network_version_6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logger_for_test_wheel_neural_network_version_3_whis_asinco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="logger_for_test_wheel_neural_network_version_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETS_Autopilot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,35 +213,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_3_whis_asinco.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logger_for_test_wheel_neural_network_version_3_whis_paralel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ETS_Autopilot" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/logger_for_test_wheel_neural_network_version_3_whis_paralel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward/logger_for_test_wheel_neural_network_version_7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +250,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wheel_neural_network_forward" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="wheel_neural_network_forward_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ETS_Autopilot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,12 +259,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn/wheel_neural_network_forward.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_5/wheel_neural_network_forward_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wheel_neural_network_lstm_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ETS_Autopilot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_5/wheel_neural_network_lstm_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logger_for_test_wheel_neural_network_version_3_whis_paralel" />
-        <item itemvalue="Python.logger_for_test_wheel_neural_network_version_3_whis_asinco" />
-        <item itemvalue="Python.logger_for_test_wheel_neural_network_rnn_version_1" />
-        <item itemvalue="Python.logger_for_test_wheel_neural_network_version_3" />
-        <item itemvalue="Python.wheel_neural_network_forward" />
+        <item itemvalue="Python.logger_for_test_wheel_neural_network_LSTM_version_2" />
+        <item itemvalue="Python.wheel_neural_network_lstm_5" />
+        <item itemvalue="Python.logger_for_test_wheel_neural_network_version_7" />
+        <item itemvalue="Python.logger_for_test_wheel_neural_network_version_6" />
+        <item itemvalue="Python.wheel_neural_network_forward_5" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +393,9 @@
       <workItem from="1712313660107" duration="13385000" />
       <workItem from="1712334637906" duration="726000" />
       <workItem from="1712403217363" duration="14238000" />
-      <workItem from="1712429215063" duration="23156000" />
+      <workItem from="1712429215063" duration="25454000" />
+      <workItem from="1712510365105" duration="16327000" />
+      <workItem from="1712550372447" duration="48592000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;Записать обучающих данных">
       <option name="closed" value="true" />
@@ -545,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712221770800</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="куча версий">
+      <option name="closed" value="true" />
+      <created>1712455959580</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712455959581</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,33 +599,44 @@
     <MESSAGE value="Новый логгер&#10;&#10;Изменение размеров окон" />
     <MESSAGE value="Версия 2&#10;Рабочая&#10;20 к/c&#10;wheel_nn прямая 128 * 96, 256, 128, 64 + speed, 1" />
     <MESSAGE value="Версия 3&#10;Рабочая&#10;25 к/c&#10;wheel_nn lstm lstm 256" />
-    <option name="LAST_COMMIT_MESSAGE" value="Версия 3&#10;Рабочая&#10;25 к/c&#10;wheel_nn lstm lstm 256" />
+    <MESSAGE value="куча версий" />
+    <option name="LAST_COMMIT_MESSAGE" value="куча версий" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ETS_Autopilot$path.coverage" NAME="path Coverage Results" MODIFIED="1708540434955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm" />
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_3_whis_paralel.coverage" NAME="logger_for_test_wheel_neural_network_version_3_whis_paralel Coverage Results" MODIFIED="1712455435835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_3_whis_paralel.coverage" NAME="logger_for_test_wheel_neural_network_version_3_whis_paralel Coverage Results" MODIFIED="1712457955120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_2.coverage" NAME="logger_for_test_wheel_neural_network_version_2 Coverage Results" MODIFIED="1712427142848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$test_for_input_to_new_nn__1_.coverage" NAME="test_for_input_to_new_nn (1) Coverage Results" MODIFIED="1709250410257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/auxiliary_squeaks" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_3_whis_asinco.coverage" NAME="logger_for_test_wheel_neural_network_version_3_whis_asinco Coverage Results" MODIFIED="1712450028128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_train_wheel_nn__1_.coverage" NAME="logger_for_train_wheel_nn (1) Coverage Results" MODIFIED="1711842182451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_LSTM.coverage" NAME="logger_for_test_wheel_neural_network_LSTM Coverage Results" MODIFIED="1712324590726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
-    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_train_wheel_neural_network.coverage" NAME="logger_for_train_wheel_neural_network Coverage Results" MODIFIED="1712074292131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$wheel_neural_network_lstm.coverage" NAME="wheel_neural_network_lstm Coverage Results" MODIFIED="1712216298951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_train_wheel_neural_network.coverage" NAME="logger_for_train_wheel_neural_network Coverage Results" MODIFIED="1712573965442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_3_miltipot.coverage" NAME="logger_for_test_wheel_neural_network_version_3_miltipot Coverage Results" MODIFIED="1712566073390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network__1_.coverage" NAME="logger_for_test_wheel_neural_network (1) Coverage Results" MODIFIED="1712200939577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$script_test_wheel_net.coverage" NAME="script_test_wheel_net Coverage Results" MODIFIED="1711593137420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/whel_neural_network" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$wheel_neural_network_forward.coverage" NAME="wheel_neural_network_forward Coverage Results" MODIFIED="1712438148944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/wheel_neural_network/rnn" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_3.coverage" NAME="logger_for_test_wheel_neural_network_version_3 Coverage Results" MODIFIED="1712446705789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_3_miltiprocessing.coverage" NAME="logger_for_test_wheel_neural_network_version_3_miltiprocessing Coverage Results" MODIFIED="1712566597197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$test_for_input_to_new_nn.coverage" NAME="test_for_input_to_new_nn Coverage Results" MODIFIED="1709245174815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/lane_recognition" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$wheel_neural_network_forward_4.coverage" NAME="wheel_neural_network_forward_4 Coverage Results" MODIFIED="1712593616832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_4" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_nn__1_.coverage" NAME="logger_for_test_wheel_nn (1) Coverage Results" MODIFIED="1711869833653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$wheel_neural_network.coverage" NAME="wheel_neural_network Coverage Results" MODIFIED="1712121960528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/wheel_neural_network" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$window.coverage" NAME="window Coverage Results" MODIFIED="1711577451256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/interface" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_6.coverage" NAME="logger_for_test_wheel_neural_network_version_6 Coverage Results" MODIFIED="1712598512592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$lane_opencv.coverage" NAME="lane_opencv Coverage Results" MODIFIED="1706456305983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/lane_recognition" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$wheel_neural_network_lstm_5.coverage" NAME="wheel_neural_network_lstm_5 Coverage Results" MODIFIED="1712608220866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/wheel_neural_network/lstm/ver_5" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_joystick.coverage" NAME="logger_joystick Coverage Results" MODIFIED="1709210753441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_rnn_version_1.coverage" NAME="logger_for_test_wheel_neural_network_rnn_version_1 Coverage Results" MODIFIED="1712447239475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_image_for_train_nn.coverage" NAME="logger_image_for_train_nn Coverage Results" MODIFIED="1711684659434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_7.coverage" NAME="logger_for_test_wheel_neural_network_version_7 Coverage Results" MODIFIED="1712607410326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$main.coverage" NAME="main Coverage Results" MODIFIED="1708539505078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$asincio_logger_image.coverage" NAME="asincio_logger_image Coverage Results" MODIFIED="1708834025211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$wheel_neural_network_forward_5.coverage" NAME="wheel_neural_network_forward_5 Coverage Results" MODIFIED="1712597559155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_5" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_version_4.coverage" NAME="logger_for_test_wheel_neural_network_version_4 Coverage Results" MODIFIED="1712572193370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$wheel_net.coverage" NAME="wheel_net Coverage Results" MODIFIED="1711592272449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/whel_neural_network" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_LSTM_version_2.coverage" NAME="logger_for_test_wheel_neural_network_LSTM_version_2 Coverage Results" MODIFIED="1712608440997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger/lstm" />
     <SUITE FILE_PATH="coverage/ETS_Autopilot$wheel_neural_network_forward__1_.coverage" NAME="wheel_neural_network_forward (1) Coverage Results" MODIFIED="1712426849412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/wheel_neural_network/forward/ver_2" />
+    <SUITE FILE_PATH="coverage/ETS_Autopilot$logger_for_test_wheel_neural_network_forward_5.coverage" NAME="logger_for_test_wheel_neural_network_forward_5 Coverage Results" MODIFIED="1712594565625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_programm/logger/version_test_logger/forward" />
   </component>
 </project>
