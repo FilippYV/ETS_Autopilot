@@ -34,7 +34,7 @@ def start_work_gamepad():
 
 
 def get_weight_model():
-    model_road = YOLO(get_path_weight_model('best.pt')).cuda()
+    model_road = YOLO(get_path_weight_model('speed_recognition_v2.pt')).cuda()
     model_speed = YOLO(get_path_weight_model('speed_recognition.pt')).cuda()
     wheel_net = IS_LSTM_Net_v3().cuda()
     wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn_lstm_3.pth')))

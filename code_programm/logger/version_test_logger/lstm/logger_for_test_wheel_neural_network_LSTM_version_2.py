@@ -50,10 +50,10 @@ def get_speed_area_size():
 
 
 def get_weight_model():
-    model_road = YOLO(get_path_weight_model('best.pt')).cuda()
+    model_road = YOLO(get_path_weight_model('speed_recognition_v2.pt')).cuda()
     model_speed = YOLO(get_path_weight_model('speed_recognition.pt')).cuda()
     wheel_net = LSTMModel().cuda()
-    wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn_lstm_5_2.pth')))
+    wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn_lstm_5_3.pth')))
     return model_road, model_speed, wheel_net
 
 
@@ -130,19 +130,20 @@ def linear_interpolation(v0, v1, t):
 
 
 def interpolation_wheel_position(new_array_wheel_position, position_gamepad_value, array_wheel_pos):
-    new_value = position_gamepad_value[1].item()
     old_value = new_array_wheel_position[-1]
+    new_value = position_gamepad_value[1].item()
     delta_values = np.abs(new_value - old_value)
-    if delta_values > 0.1:
-        delta = 1.2
-    elif delta_values > 0.05:
-        delta = 1.4
-    else:
-        delta = 1.7
-
+    # if delta_values > 0.1:
+    #     delta = 1
+    # elif delta_values > 0.1:
+    #     delta = 1.2
+    # elif delta_values > 0.05:
+    #     delta = 1.5
+    # else:
+    #     delta = 2
+    delta = 1
     t_values = np.array(array_wheel_pos) / delta
     interpolated_values = old_value + (new_value - old_value) * t_values
-
     return interpolated_values.tolist()
 
 
@@ -185,7 +186,7 @@ def main_code():
     combined_mask_old = torch.zeros((1, 1, 96, 128), device='cuda')
     combined_mask_new = torch.zeros((1, 1, 96, 128), device='cuda')
 
-    array_wheel_pos = np.array([i / 10 for i in range(1, 11, 1)])
+    array_wheel_pos = np.array([i / 4 for i in range(1, 5, 1)])
 
     opened = False
     recording = False

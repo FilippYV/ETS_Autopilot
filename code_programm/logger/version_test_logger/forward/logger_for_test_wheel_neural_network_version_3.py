@@ -14,7 +14,7 @@ from code_programm.wheel_neural_network.forward.ver_3.wheel_neural_network_forwa
 
 
 def get_weight_model():
-    model_road = YOLO(get_path_weight_model('best.pt')).cuda()
+    model_road = YOLO(get_path_weight_model('speed_recognition_v2.pt')).cuda()
     model_speed = YOLO(get_path_weight_model('speed_recognition.pt')).cuda()
     wheel_net = FeedforwardNet().cuda()
     wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn_version_3.pth')))
