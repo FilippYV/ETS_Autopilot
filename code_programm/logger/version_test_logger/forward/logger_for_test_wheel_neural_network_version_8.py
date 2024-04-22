@@ -14,7 +14,7 @@ from ultralytics import YOLO
 
 from code_programm.path import (get_path_config_road_area_size, get_path_config_speed_area_size,
                                 get_path_weight_model)
-from code_programm.wheel_neural_network.forward.ver_6.wheel_neural_network_forward_6 import FeedforwardNet
+from code_programm.wheel_neural_network.forward.ver_8.wheel_neural_network_forward_8 import FeedforwardNet
 
 
 def start_work_wheel_pygame():
@@ -53,7 +53,7 @@ def get_weight_model():
     model_road = YOLO(get_path_weight_model('speed_recognition_v2.pt')).cuda()
     model_speed = YOLO(get_path_weight_model('speed_recognition.pt')).cuda()
     wheel_net = FeedforwardNet().cuda()
-    wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn_forward_6.pth')))
+    wheel_net.load_state_dict(torch.load(get_path_weight_model('weight_wheel_nn_forward_8.pth')))
     return model_road, model_speed, wheel_net
 
 
@@ -85,7 +85,7 @@ def model_road_processing(model_road, road_image, combined_mask_old, combined_ma
         combined_mask_old = combined_mask_new
         combined_mask_new.zero_()
         for i in result_model_road[0].masks.data:
-            resized_mask = F.interpolate(i.unsqueeze(0).unsqueeze(0), size=(96, 128), mode='bilinear',
+            resized_mask = F.interpolate(i.unsqueeze(0).unsqueeze(0), size=(48, 64), mode='bilinear',
                                          align_corners=False)
             combined_mask_new += resized_mask.squeeze(0).unsqueeze(0)
 
@@ -149,7 +149,6 @@ def clear_queue(q):
 def update_virtual_wheel(user_wheel_update, virtual_wheel_update, stop_event):
     while not stop_event.is_set():
         pygame.event.pump()
-        print(user_wheel_update.get_axis(0))
         virtual_wheel_update.left_joystick_float(x_value_float=user_wheel_update.get_axis(0), y_value_float=0.0)
         virtual_wheel_update.update()
 
@@ -176,8 +175,8 @@ def main_code():
     # Объявляем кнопки для управления
     first_key, second_key, third_key, fourth_key = get_key_for_management()
 
-    combined_mask_old = torch.zeros((1, 1, 96, 128), device='cuda')
-    combined_mask_new = torch.zeros((1, 1, 96, 128), device='cuda')
+    combined_mask_old = torch.zeros((1, 1, 48, 64), device='cuda')
+    combined_mask_new = torch.zeros((1, 1, 48, 64), device='cuda')
 
     array_wheel_pos = np.array([i / 4 for i in range(1, 5, 1)])
 
