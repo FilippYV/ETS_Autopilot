@@ -265,7 +265,7 @@ def main_code():
                 for xi in x:
                     virtual_wheel.left_joystick_float(x_value_float=xi, y_value_float=0.0)
                     virtual_wheel.update()
-                    time.sleep(0.01)
+                    time.sleep(0.1)
 
             if keyboard.is_pressed(f'{second_key}'):
                 print('\nExit')
